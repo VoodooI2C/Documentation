@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<struct id="pingroup" name="pingroup" xmlns="http://jessevdk.github.com/cldoc/1.0">
+  <brief>*</brief>
+  <doc>struct pingroup - provides information on pingroup
+</doc>
+  <field id="pingroup::name" name="name">
+    <type name="char" qualifier=" const *" builtin="yes" />
+  </field>
+  <field id="pingroup::pins" name="pins">
+    <type name="unsigned int" qualifier=" const *" builtin="yes" />
+  </field>
+  <field id="pingroup::npins" name="npins">
+    <type name="size_t" />
+  </field>
+</struct>

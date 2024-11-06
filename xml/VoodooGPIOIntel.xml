@@ -1,0 +1,149 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<class id="VoodooGPIOIntel" name="VoodooGPIOIntel" interface="true" xmlns="http://jessevdk.github.com/cldoc/1.0">
+  <base access="public">
+    <type name="VoodooGPIO" ref="VoodooGPIO#VoodooGPIO" />
+  </base>
+  <subclass access="public" ref="VoodooGPIOCannonLakeH#VoodooGPIOCannonLakeH" name="VoodooGPIOCannonLakeH" />
+  <subclass access="public" ref="VoodooGPIOCannonLakeLP#VoodooGPIOCannonLakeLP" name="VoodooGPIOCannonLakeLP" />
+  <subclass access="public" ref="VoodooGPIOTigerLakeLP#VoodooGPIOTigerLakeLP" name="VoodooGPIOTigerLakeLP" />
+  <subclass access="public" ref="VoodooGPIOSunrisePointH#VoodooGPIOSunrisePointH" name="VoodooGPIOSunrisePointH" />
+  <subclass access="public" ref="VoodooGPIOSunrisePointLP#VoodooGPIOSunrisePointLP" name="VoodooGPIOSunrisePointLP" />
+  <subclass access="public" ref="VoodooGPIOIceLakeLP#VoodooGPIOIceLakeLP" name="VoodooGPIOIceLakeLP" />
+  <variable id="VoodooGPIOIntel::gMetaClass" name="gMetaClass">
+    <type name="MetaClass" ref="VoodooGPIOIntel::MetaClass#VoodooGPIOIntel::MetaClass" />
+  </variable>
+  <variable id="VoodooGPIOIntel::metaClass" name="metaClass">
+    <type name="OSMetaClass" qualifier=" const const *" />
+  </variable>
+  <class ref="VoodooGPIOIntel::MetaClass#VoodooGPIOIntel::MetaClass" name="MetaClass" />
+  <constructor id="VoodooGPIOIntel::VoodooGPIOIntel" name="VoodooGPIOIntel" abstract="yes" />
+  <method id="VoodooGPIOIntel::disableInterrupt" name="disableInterrupt" virtual="yes" abstract="yes">
+    <return>
+      <type name="IOReturn" />
+    </return>
+    <argument name="pin" id="VoodooGPIOIntel::disableInterrupt::pin">
+      <type name="int" builtin="yes" />
+    </argument>
+  </method>
+  <method id="VoodooGPIOIntel::enableInterrupt" name="enableInterrupt" virtual="yes" abstract="yes">
+    <return>
+      <type name="IOReturn" />
+    </return>
+    <argument name="pin" id="VoodooGPIOIntel::enableInterrupt::pin">
+      <type name="int" builtin="yes" />
+    </argument>
+  </method>
+  <method id="VoodooGPIOIntel::getInterruptType" name="getInterruptType" virtual="yes" abstract="yes">
+    <return>
+      <type name="IOReturn" />
+    </return>
+    <argument name="pin" id="VoodooGPIOIntel::getInterruptType::pin">
+      <type name="int" builtin="yes" />
+    </argument>
+    <argument name="interruptType" id="VoodooGPIOIntel::getInterruptType::interruptType">
+      <type name="int" qualifier="*" builtin="yes" />
+    </argument>
+  </method>
+  <method id="VoodooGPIOIntel::getMetaClass" name="getMetaClass" override="yes" virtual="yes" abstract="yes">
+    <return>
+      <type name="OSMetaClass" qualifier=" const *" />
+    </return>
+    <override name="VoodooGPIO::getMetaClass" ref="VoodooGPIO#VoodooGPIO::getMetaClass" />
+  </method>
+  <method id="VoodooGPIOIntel::init" name="init" virtual="yes" abstract="yes">
+    <return>
+      <type name="bool" builtin="yes" />
+    </return>
+    <argument name="properties" id="VoodooGPIOIntel::init::properties">
+      <type name="OSDictionary" qualifier="*" />
+    </argument>
+  </method>
+  <method id="VoodooGPIOIntel::registerInterrupt" name="registerInterrupt" virtual="yes" abstract="yes">
+    <return>
+      <type name="IOReturn" />
+    </return>
+    <argument name="pin" id="VoodooGPIOIntel::registerInterrupt::pin">
+      <type name="int" builtin="yes" />
+    </argument>
+    <argument name="target" id="VoodooGPIOIntel::registerInterrupt::target">
+      <type name="OSObject" qualifier="*" />
+    </argument>
+    <argument name="handler" id="VoodooGPIOIntel::registerInterrupt::handler">
+      <type name="IOInterruptAction" />
+    </argument>
+    <argument name="refcon" id="VoodooGPIOIntel::registerInterrupt::refcon">
+      <type name="void" qualifier="*" builtin="yes" />
+    </argument>
+  </method>
+  <method id="VoodooGPIOIntel::setInterruptTypeForPin" name="setInterruptTypeForPin" override="yes" virtual="yes" abstract="yes">
+    <return>
+      <type name="IOReturn" />
+    </return>
+    <argument name="pin" id="VoodooGPIOIntel::setInterruptTypeForPin::pin">
+      <type name="int" builtin="yes" />
+    </argument>
+    <argument name="type" id="VoodooGPIOIntel::setInterruptTypeForPin::type">
+      <type name="int" builtin="yes" />
+    </argument>
+    <override name="VoodooGPIO::setInterruptTypeForPin" ref="VoodooGPIO#VoodooGPIO::setInterruptTypeForPin" />
+  </method>
+  <method id="VoodooGPIOIntel::setPowerState" name="setPowerState" virtual="yes" abstract="yes">
+    <return>
+      <type name="IOReturn" />
+    </return>
+    <argument name="powerState" id="VoodooGPIOIntel::setPowerState::powerState">
+      <type name="unsigned long" builtin="yes" />
+    </argument>
+    <argument name="whatDevice" id="VoodooGPIOIntel::setPowerState::whatDevice">
+      <type name="IOService" qualifier="*" />
+    </argument>
+  </method>
+  <method id="VoodooGPIOIntel::start" name="start" virtual="yes" abstract="yes">
+    <return>
+      <type name="bool" builtin="yes" />
+    </return>
+    <argument name="provider" id="VoodooGPIOIntel::start::provider">
+      <type name="IOService" qualifier="*" />
+    </argument>
+  </method>
+  <method id="VoodooGPIOIntel::stop" name="stop" virtual="yes" abstract="yes">
+    <return>
+      <type name="void" builtin="yes" />
+    </return>
+    <argument name="provider" id="VoodooGPIOIntel::stop::provider">
+      <type name="IOService" qualifier="*" />
+    </argument>
+  </method>
+  <method id="VoodooGPIOIntel::unregisterInterrupt" name="unregisterInterrupt" virtual="yes" abstract="yes">
+    <return>
+      <type name="IOReturn" />
+    </return>
+    <argument name="pin" id="VoodooGPIOIntel::unregisterInterrupt::pin">
+      <type name="int" builtin="yes" />
+    </argument>
+  </method>
+  <field id="VoodooGPIOIntel::groups" name="groups" access="protected">
+    <type name="intel_pingroup" qualifier="*" ref="intel_pingroup#intel_pingroup" />
+  </field>
+  <field id="VoodooGPIOIntel::ngroups" name="ngroups" access="protected">
+    <type name="size_t" />
+  </field>
+  <field id="VoodooGPIOIntel::functions" name="functions" access="protected">
+    <type name="intel_function" qualifier="*" ref="intel_function#intel_function" />
+  </field>
+  <field id="VoodooGPIOIntel::nfunctions" name="nfunctions" access="protected">
+    <type name="size_t" />
+  </field>
+  <field id="VoodooGPIOIntel::communities" name="communities" access="protected">
+    <type name="intel_community" qualifier="*" ref="intel_community#intel_community" />
+  </field>
+  <field id="VoodooGPIOIntel::ncommunities" name="ncommunities" access="protected">
+    <type name="size_t" />
+  </field>
+  <constructor id="VoodooGPIOIntel::VoodooGPIOIntel" name="VoodooGPIOIntel" access="protected" abstract="yes">
+    <argument name="" id="VoodooGPIOIntel::VoodooGPIOIntel::">
+      <type name="OSMetaClass" qualifier=" const *" />
+    </argument>
+  </constructor>
+  <destructor id="VoodooGPIOIntel::~VoodooGPIOIntel" name="~VoodooGPIOIntel" access="protected" virtual="yes" abstract="yes" />
+</class>

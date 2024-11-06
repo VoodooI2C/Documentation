@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<class id="VoodooGPIO" name="VoodooGPIO" interface="true" xmlns="http://jessevdk.github.com/cldoc/1.0">
+  <base access="public">
+    <type name="IOService" />
+  </base>
+  <subclass access="public" ref="VoodooGPIOIntel#VoodooGPIOIntel" name="VoodooGPIOIntel" />
+  <subclass access="public" ref="VoodooGPIOAMD#VoodooGPIOAMD" name="VoodooGPIOAMD" />
+  <variable id="VoodooGPIO::gMetaClass" name="gMetaClass">
+    <type name="MetaClass" ref="VoodooGPIO::MetaClass#VoodooGPIO::MetaClass" />
+  </variable>
+  <variable id="VoodooGPIO::metaClass" name="metaClass">
+    <type name="OSMetaClass" qualifier=" const const *" />
+  </variable>
+  <class ref="VoodooGPIO::MetaClass#VoodooGPIO::MetaClass" name="MetaClass" />
+  <method id="VoodooGPIO::getMetaClass" name="getMetaClass" virtual="yes" abstract="yes">
+    <return>
+      <type name="OSMetaClass" qualifier=" const *" />
+    </return>
+  </method>
+  <method id="VoodooGPIO::setInterruptTypeForPin" name="setInterruptTypeForPin" virtual="yes" abstract="yes">
+    <return>
+      <type name="IOReturn" />
+    </return>
+    <argument name="pin" id="VoodooGPIO::setInterruptTypeForPin::pin">
+      <type name="int" builtin="yes" />
+    </argument>
+    <argument name="type" id="VoodooGPIO::setInterruptTypeForPin::type">
+      <type name="int" builtin="yes" />
+    </argument>
+  </method>
+  <field id="VoodooGPIO::pins" name="pins" access="protected">
+    <type name="pinctrl_pin_desc" qualifier=" const *" ref="pinctrl_pin_desc#pinctrl_pin_desc" />
+  </field>
+  <field id="VoodooGPIO::npins" name="npins" access="protected">
+    <type name="size_t" />
+  </field>
+  <field id="VoodooGPIO::controllerIsAwake" name="controllerIsAwake" access="protected">
+    <type name="bool" builtin="yes" />
+  </field>
+  <field id="VoodooGPIO::workLoop" name="workLoop" access="protected">
+    <type name="IOWorkLoop" qualifier="*" />
+  </field>
+  <field id="VoodooGPIO::command_gate" name="command_gate" access="protected">
+    <type name="IOCommandGate" qualifier="*" />
+  </field>
+  <field id="VoodooGPIO::registered_pin_list" name="registered_pin_list" access="protected">
+    <type name="OSArray" qualifier="*" />
+  </field>
+  <field id="VoodooGPIO::isInterruptBusy" name="isInterruptBusy" access="protected">
+    <type name="bool" builtin="yes" />
+  </field>
+  <constructor id="VoodooGPIO::VoodooGPIO" name="VoodooGPIO" access="protected" abstract="yes">
+    <argument name="" id="VoodooGPIO::VoodooGPIO::">
+      <type name="OSMetaClass" qualifier=" const *" />
+    </argument>
+  </constructor>
+  <destructor id="VoodooGPIO::~VoodooGPIO" name="~VoodooGPIO" access="protected" virtual="yes" abstract="yes" />
+  <method id="VoodooGPIO::getWorkLoop" name="getWorkLoop" access="protected" virtual="yes" abstract="yes">
+    <return>
+      <type name="IOWorkLoop" qualifier="*" />
+    </return>
+  </method>
+</class>

@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<class id="VoodooGPIOTigerLakeLP" name="VoodooGPIOTigerLakeLP" interface="true" xmlns="http://jessevdk.github.com/cldoc/1.0">
+  <base access="public">
+    <type name="VoodooGPIOIntel" ref="VoodooGPIOIntel#VoodooGPIOIntel" />
+  </base>
+  <variable id="VoodooGPIOTigerLakeLP::gMetaClass" name="gMetaClass">
+    <type name="MetaClass" ref="VoodooGPIOTigerLakeLP::MetaClass#VoodooGPIOTigerLakeLP::MetaClass" />
+  </variable>
+  <variable id="VoodooGPIOTigerLakeLP::metaClass" name="metaClass">
+    <type name="OSMetaClass" qualifier=" const const *" />
+  </variable>
+  <class ref="VoodooGPIOTigerLakeLP::MetaClass#VoodooGPIOTigerLakeLP::MetaClass" name="MetaClass" />
+  <constructor id="VoodooGPIOTigerLakeLP::VoodooGPIOTigerLakeLP" name="VoodooGPIOTigerLakeLP" abstract="yes" />
+  <method id="VoodooGPIOTigerLakeLP::getMetaClass" name="getMetaClass" override="yes" virtual="yes" abstract="yes">
+    <return>
+      <type name="OSMetaClass" qualifier=" const *" />
+    </return>
+    <override name="VoodooGPIOIntel::getMetaClass" ref="VoodooGPIOIntel#VoodooGPIOIntel::getMetaClass" />
+  </method>
+  <constructor id="VoodooGPIOTigerLakeLP::VoodooGPIOTigerLakeLP" name="VoodooGPIOTigerLakeLP" access="protected" abstract="yes">
+    <argument name="" id="VoodooGPIOTigerLakeLP::VoodooGPIOTigerLakeLP::">
+      <type name="OSMetaClass" qualifier=" const *" />
+    </argument>
+  </constructor>
+  <destructor id="VoodooGPIOTigerLakeLP::~VoodooGPIOTigerLakeLP" name="~VoodooGPIOTigerLakeLP" access="protected" virtual="yes" abstract="yes" />
+  <method id="VoodooGPIOTigerLakeLP::start" name="start" access="protected" override="yes" virtual="yes" abstract="yes">
+    <return>
+      <type name="bool" builtin="yes" />
+    </return>
+    <argument name="provider" id="VoodooGPIOTigerLakeLP::start::provider">
+      <type name="IOService" qualifier="*" />
+    </argument>
+    <override name="VoodooGPIOIntel::start" ref="VoodooGPIOIntel#VoodooGPIOIntel::start" />
+  </method>
+</class>

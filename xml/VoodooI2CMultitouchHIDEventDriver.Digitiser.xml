@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<struct id="VoodooI2CMultitouchHIDEventDriver::Digitiser" name="Digitiser" xmlns="http://jessevdk.github.com/cldoc/1.0">
+  <field id="VoodooI2CMultitouchHIDEventDriver::Digitiser::fingers" name="fingers">
+    <type name="OSArray" qualifier="*" />
+  </field>
+  <field id="VoodooI2CMultitouchHIDEventDriver::Digitiser::styluses" name="styluses">
+    <type name="OSArray" qualifier="*" />
+  </field>
+  <field id="VoodooI2CMultitouchHIDEventDriver::Digitiser::wrappers" name="wrappers">
+    <type name="OSArray" qualifier="*" />
+  </field>
+  <field id="VoodooI2CMultitouchHIDEventDriver::Digitiser::transducers" name="transducers">
+    <type name="OSArray" qualifier="*" />
+  </field>
+  <field id="VoodooI2CMultitouchHIDEventDriver::Digitiser::contact_count" name="contact_count">
+    <brief>report level elements</brief>
+    <doc />
+    <type name="IOHIDElement" qualifier="*" />
+  </field>
+  <field id="VoodooI2CMultitouchHIDEventDriver::Digitiser::input_mode" name="input_mode">
+    <type name="IOHIDElement" qualifier="*" />
+  </field>
+  <field id="VoodooI2CMultitouchHIDEventDriver::Digitiser::primaryButton" name="primaryButton">
+    <type name="IOHIDElement" qualifier="*" />
+  </field>
+  <field id="VoodooI2CMultitouchHIDEventDriver::Digitiser::secondaryButton" name="secondaryButton">
+    <type name="IOHIDElement" qualifier="*" />
+  </field>
+  <field id="VoodooI2CMultitouchHIDEventDriver::Digitiser::contact_count_maximum" name="contact_count_maximum">
+    <brief>collection level elements</brief>
+    <doc />
+    <type name="IOHIDElement" qualifier="*" />
+  </field>
+  <field id="VoodooI2CMultitouchHIDEventDriver::Digitiser::current_contact_count" name="current_contact_count">
+    <type name="UInt8" />
+  </field>
+  <field id="VoodooI2CMultitouchHIDEventDriver::Digitiser::report_count" name="report_count">
+    <type name="UInt8" />
+  </field>
+  <field id="VoodooI2CMultitouchHIDEventDriver::Digitiser::current_report" name="current_report">
+    <type name="UInt8" />
+  </field>
+</struct>

@@ -1,0 +1,1917 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<index xmlns="http://jessevdk.github.com/cldoc/1.0">
+  <category ref="Supported Gestures#Supported Gestures" name="Supported Gestures">
+    <brief>&amp;#8291;</brief>
+  </category>
+  <variable id="cnlh_communities" name="cnlh_communities">
+    <type size="4" class="array">
+      <type name="intel_community" ref="intel_community#intel_community" />
+    </type>
+  </variable>
+  <variable id="cnlh_community0_gpps" name="cnlh_community0_gpps">
+    <type size="2" class="array">
+      <type name="intel_padgroup" ref="intel_padgroup#intel_padgroup" />
+    </type>
+  </variable>
+  <variable id="cnlh_community1_gpps" name="cnlh_community1_gpps">
+    <type size="6" class="array">
+      <type name="intel_padgroup" ref="intel_padgroup#intel_padgroup" />
+    </type>
+  </variable>
+  <variable id="cnlh_community3_gpps" name="cnlh_community3_gpps">
+    <type size="5" class="array">
+      <type name="intel_padgroup" ref="intel_padgroup#intel_padgroup" />
+    </type>
+  </variable>
+  <variable id="cnlh_community4_gpps" name="cnlh_community4_gpps">
+    <type size="4" class="array">
+      <type name="intel_padgroup" ref="intel_padgroup#intel_padgroup" />
+    </type>
+  </variable>
+  <variable id="cnlh_functions" name="cnlh_functions">
+    <type size="10" class="array">
+      <type name="intel_function" ref="intel_function#intel_function" />
+    </type>
+  </variable>
+  <variable id="cnlh_groups" name="cnlh_groups">
+    <type size="10" class="array">
+      <type name="intel_pingroup" ref="intel_pingroup#intel_pingroup" />
+    </type>
+  </variable>
+  <variable id="cnlh_i2c0_groups" name="cnlh_i2c0_groups">
+    <type size="1" class="array">
+      <type name="char" qualifier=" const *" builtin="yes" />
+    </type>
+  </variable>
+  <variable id="cnlh_i2c0_pins" name="cnlh_i2c0_pins">
+    <type size="2" class="array">
+      <type name="unsigned int" builtin="yes" />
+    </type>
+  </variable>
+  <variable id="cnlh_i2c1_groups" name="cnlh_i2c1_groups">
+    <type size="1" class="array">
+      <type name="char" qualifier=" const *" builtin="yes" />
+    </type>
+  </variable>
+  <variable id="cnlh_i2c1_pins" name="cnlh_i2c1_pins">
+    <type size="2" class="array">
+      <type name="unsigned int" builtin="yes" />
+    </type>
+  </variable>
+  <variable id="cnlh_i2c2_groups" name="cnlh_i2c2_groups">
+    <type size="1" class="array">
+      <type name="char" qualifier=" const *" builtin="yes" />
+    </type>
+  </variable>
+  <variable id="cnlh_i2c2_pins" name="cnlh_i2c2_pins">
+    <type size="2" class="array">
+      <type name="unsigned int" builtin="yes" />
+    </type>
+  </variable>
+  <variable id="cnlh_i2c3_groups" name="cnlh_i2c3_groups">
+    <type size="1" class="array">
+      <type name="char" qualifier=" const *" builtin="yes" />
+    </type>
+  </variable>
+  <variable id="cnlh_i2c3_pins" name="cnlh_i2c3_pins">
+    <type size="2" class="array">
+      <type name="unsigned int" builtin="yes" />
+    </type>
+  </variable>
+  <variable id="cnlh_pins" name="cnlh_pins">
+    <brief>Cannon Lake-H</brief>
+    <doc />
+    <type size="299" class="array">
+      <type name="pinctrl_pin_desc" ref="pinctrl_pin_desc#pinctrl_pin_desc" />
+    </type>
+  </variable>
+  <variable id="cnlh_spi0_groups" name="cnlh_spi0_groups">
+    <type size="1" class="array">
+      <type name="char" qualifier=" const *" builtin="yes" />
+    </type>
+  </variable>
+  <variable id="cnlh_spi0_pins" name="cnlh_spi0_pins">
+    <type size="4" class="array">
+      <type name="unsigned int" builtin="yes" />
+    </type>
+  </variable>
+  <variable id="cnlh_spi1_groups" name="cnlh_spi1_groups">
+    <type size="1" class="array">
+      <type name="char" qualifier=" const *" builtin="yes" />
+    </type>
+  </variable>
+  <variable id="cnlh_spi1_pins" name="cnlh_spi1_pins">
+    <type size="4" class="array">
+      <type name="unsigned int" builtin="yes" />
+    </type>
+  </variable>
+  <variable id="cnlh_spi2_groups" name="cnlh_spi2_groups">
+    <type size="1" class="array">
+      <type name="char" qualifier=" const *" builtin="yes" />
+    </type>
+  </variable>
+  <variable id="cnlh_spi2_pins" name="cnlh_spi2_pins">
+    <type size="4" class="array">
+      <type name="unsigned int" builtin="yes" />
+    </type>
+  </variable>
+  <variable id="cnlh_uart0_groups" name="cnlh_uart0_groups">
+    <type size="1" class="array">
+      <type name="char" qualifier=" const *" builtin="yes" />
+    </type>
+  </variable>
+  <variable id="cnlh_uart0_pins" name="cnlh_uart0_pins">
+    <type size="4" class="array">
+      <type name="unsigned int" builtin="yes" />
+    </type>
+  </variable>
+  <variable id="cnlh_uart1_groups" name="cnlh_uart1_groups">
+    <type size="1" class="array">
+      <type name="char" qualifier=" const *" builtin="yes" />
+    </type>
+  </variable>
+  <variable id="cnlh_uart1_pins" name="cnlh_uart1_pins">
+    <type size="4" class="array">
+      <type name="unsigned int" builtin="yes" />
+    </type>
+  </variable>
+  <variable id="cnlh_uart2_groups" name="cnlh_uart2_groups">
+    <type size="1" class="array">
+      <type name="char" qualifier=" const *" builtin="yes" />
+    </type>
+  </variable>
+  <variable id="cnlh_uart2_pins" name="cnlh_uart2_pins">
+    <type size="4" class="array">
+      <type name="unsigned int" builtin="yes" />
+    </type>
+  </variable>
+  <variable id="cnllp_communities" name="cnllp_communities">
+    <type size="3" class="array">
+      <type name="intel_community" ref="intel_community#intel_community" />
+    </type>
+  </variable>
+  <variable id="cnllp_community0_gpps" name="cnllp_community0_gpps">
+    <type size="4" class="array">
+      <type name="intel_padgroup" ref="intel_padgroup#intel_padgroup" />
+    </type>
+  </variable>
+  <variable id="cnllp_community1_gpps" name="cnllp_community1_gpps">
+    <type size="5" class="array">
+      <type name="intel_padgroup" ref="intel_padgroup#intel_padgroup" />
+    </type>
+  </variable>
+  <variable id="cnllp_community4_gpps" name="cnllp_community4_gpps">
+    <type size="4" class="array">
+      <type name="intel_padgroup" ref="intel_padgroup#intel_padgroup" />
+    </type>
+  </variable>
+  <variable id="cnllp_functions" name="cnllp_functions">
+    <type size="12" class="array">
+      <type name="intel_function" ref="intel_function#intel_function" />
+    </type>
+  </variable>
+  <variable id="cnllp_groups" name="cnllp_groups">
+    <type size="12" class="array">
+      <type name="intel_pingroup" ref="intel_pingroup#intel_pingroup" />
+    </type>
+  </variable>
+  <variable id="cnllp_i2c0_groups" name="cnllp_i2c0_groups">
+    <type size="1" class="array">
+      <type name="char" qualifier=" const *" builtin="yes" />
+    </type>
+  </variable>
+  <variable id="cnllp_i2c0_pins" name="cnllp_i2c0_pins">
+    <type size="2" class="array">
+      <type name="unsigned int" builtin="yes" />
+    </type>
+  </variable>
+  <variable id="cnllp_i2c1_groups" name="cnllp_i2c1_groups">
+    <type size="1" class="array">
+      <type name="char" qualifier=" const *" builtin="yes" />
+    </type>
+  </variable>
+  <variable id="cnllp_i2c1_pins" name="cnllp_i2c1_pins">
+    <type size="2" class="array">
+      <type name="unsigned int" builtin="yes" />
+    </type>
+  </variable>
+  <variable id="cnllp_i2c2_groups" name="cnllp_i2c2_groups">
+    <type size="1" class="array">
+      <type name="char" qualifier=" const *" builtin="yes" />
+    </type>
+  </variable>
+  <variable id="cnllp_i2c2_pins" name="cnllp_i2c2_pins">
+    <type size="2" class="array">
+      <type name="unsigned int" builtin="yes" />
+    </type>
+  </variable>
+  <variable id="cnllp_i2c3_groups" name="cnllp_i2c3_groups">
+    <type size="1" class="array">
+      <type name="char" qualifier=" const *" builtin="yes" />
+    </type>
+  </variable>
+  <variable id="cnllp_i2c3_pins" name="cnllp_i2c3_pins">
+    <type size="2" class="array">
+      <type name="unsigned int" builtin="yes" />
+    </type>
+  </variable>
+  <variable id="cnllp_i2c4_groups" name="cnllp_i2c4_groups">
+    <type size="1" class="array">
+      <type name="char" qualifier=" const *" builtin="yes" />
+    </type>
+  </variable>
+  <variable id="cnllp_i2c4_pins" name="cnllp_i2c4_pins">
+    <type size="2" class="array">
+      <type name="unsigned int" builtin="yes" />
+    </type>
+  </variable>
+  <variable id="cnllp_i2c5_groups" name="cnllp_i2c5_groups">
+    <type size="1" class="array">
+      <type name="char" qualifier=" const *" builtin="yes" />
+    </type>
+  </variable>
+  <variable id="cnllp_i2c5_pins" name="cnllp_i2c5_pins">
+    <type size="2" class="array">
+      <type name="unsigned int" builtin="yes" />
+    </type>
+  </variable>
+  <variable id="cnllp_pins" name="cnllp_pins">
+    <brief>Cannon Lake-LP</brief>
+    <doc />
+    <type size="244" class="array">
+      <type name="pinctrl_pin_desc" ref="pinctrl_pin_desc#pinctrl_pin_desc" />
+    </type>
+  </variable>
+  <variable id="cnllp_spi0_groups" name="cnllp_spi0_groups">
+    <type size="1" class="array">
+      <type name="char" qualifier=" const *" builtin="yes" />
+    </type>
+  </variable>
+  <variable id="cnllp_spi0_modes" name="cnllp_spi0_modes">
+    <type size="5" class="array">
+      <type name="unsigned int" builtin="yes" />
+    </type>
+  </variable>
+  <variable id="cnllp_spi0_pins" name="cnllp_spi0_pins">
+    <type size="5" class="array">
+      <type name="unsigned int" builtin="yes" />
+    </type>
+  </variable>
+  <variable id="cnllp_spi1_groups" name="cnllp_spi1_groups">
+    <type size="1" class="array">
+      <type name="char" qualifier=" const *" builtin="yes" />
+    </type>
+  </variable>
+  <variable id="cnllp_spi1_modes" name="cnllp_spi1_modes">
+    <type size="5" class="array">
+      <type name="unsigned int" builtin="yes" />
+    </type>
+  </variable>
+  <variable id="cnllp_spi1_pins" name="cnllp_spi1_pins">
+    <type size="5" class="array">
+      <type name="unsigned int" builtin="yes" />
+    </type>
+  </variable>
+  <variable id="cnllp_spi2_groups" name="cnllp_spi2_groups">
+    <type size="1" class="array">
+      <type name="char" qualifier=" const *" builtin="yes" />
+    </type>
+  </variable>
+  <variable id="cnllp_spi2_modes" name="cnllp_spi2_modes">
+    <type size="5" class="array">
+      <type name="unsigned int" builtin="yes" />
+    </type>
+  </variable>
+  <variable id="cnllp_spi2_pins" name="cnllp_spi2_pins">
+    <type size="5" class="array">
+      <type name="unsigned int" builtin="yes" />
+    </type>
+  </variable>
+  <variable id="cnllp_uart0_groups" name="cnllp_uart0_groups">
+    <type size="1" class="array">
+      <type name="char" qualifier=" const *" builtin="yes" />
+    </type>
+  </variable>
+  <variable id="cnllp_uart0_pins" name="cnllp_uart0_pins">
+    <type size="4" class="array">
+      <type name="unsigned int" builtin="yes" />
+    </type>
+  </variable>
+  <variable id="cnllp_uart1_groups" name="cnllp_uart1_groups">
+    <type size="1" class="array">
+      <type name="char" qualifier=" const *" builtin="yes" />
+    </type>
+  </variable>
+  <variable id="cnllp_uart1_pins" name="cnllp_uart1_pins">
+    <type size="4" class="array">
+      <type name="unsigned int" builtin="yes" />
+    </type>
+  </variable>
+  <variable id="cnllp_uart2_groups" name="cnllp_uart2_groups">
+    <type size="1" class="array">
+      <type name="char" qualifier=" const *" builtin="yes" />
+    </type>
+  </variable>
+  <variable id="cnllp_uart2_pins" name="cnllp_uart2_pins">
+    <type size="4" class="array">
+      <type name="unsigned int" builtin="yes" />
+    </type>
+  </variable>
+  <category ref="Troubleshooting#Troubleshooting" name="Troubleshooting">
+    <brief>&amp;#8291;</brief>
+  </category>
+  <category ref="Build Environment#Build Environment" name="Build Environment">
+    <brief>&amp;#8291;</brief>
+  </category>
+  <category ref="Credits and Acknowledgments#Credits and Acknowledgments" name="Credits and Acknowledgments">
+    <brief>&amp;#8291;</brief>
+  </category>
+  <variable id="i2c_hid_quirks" name="i2c_hid_quirks">
+    <type size="5" class="array">
+      <type name="i2c_hid_quirks" qualifier=" const" ref="i2c_hid_quirks#i2c_hid_quirks" />
+    </type>
+  </variable>
+  <variable id="icllp_communities" name="icllp_communities">
+    <type size="4" class="array">
+      <type name="intel_community" ref="intel_community#intel_community" />
+    </type>
+  </variable>
+  <variable id="icllp_community0_gpps" name="icllp_community0_gpps">
+    <type size="3" class="array">
+      <type name="intel_padgroup" ref="intel_padgroup#intel_padgroup" />
+    </type>
+  </variable>
+  <variable id="icllp_community1_gpps" name="icllp_community1_gpps">
+    <type size="4" class="array">
+      <type name="intel_padgroup" ref="intel_padgroup#intel_padgroup" />
+    </type>
+  </variable>
+  <variable id="icllp_community4_gpps" name="icllp_community4_gpps">
+    <type size="4" class="array">
+      <type name="intel_padgroup" ref="intel_padgroup#intel_padgroup" />
+    </type>
+  </variable>
+  <variable id="icllp_community5_gpps" name="icllp_community5_gpps">
+    <type size="3" class="array">
+      <type name="intel_padgroup" ref="intel_padgroup#intel_padgroup" />
+    </type>
+  </variable>
+  <variable id="icllp_functions" name="icllp_functions">
+    <type size="11" class="array">
+      <type name="intel_function" ref="intel_function#intel_function" />
+    </type>
+  </variable>
+  <variable id="icllp_groups" name="icllp_groups">
+    <type size="11" class="array">
+      <type name="intel_pingroup" ref="intel_pingroup#intel_pingroup" />
+    </type>
+  </variable>
+  <variable id="icllp_i2c0_groups" name="icllp_i2c0_groups">
+    <type size="1" class="array">
+      <type name="char" qualifier=" const *" builtin="yes" />
+    </type>
+  </variable>
+  <variable id="icllp_i2c0_pins" name="icllp_i2c0_pins">
+    <type size="2" class="array">
+      <type name="unsigned int" builtin="yes" />
+    </type>
+  </variable>
+  <variable id="icllp_i2c1_groups" name="icllp_i2c1_groups">
+    <type size="1" class="array">
+      <type name="char" qualifier=" const *" builtin="yes" />
+    </type>
+  </variable>
+  <variable id="icllp_i2c1_pins" name="icllp_i2c1_pins">
+    <type size="2" class="array">
+      <type name="unsigned int" builtin="yes" />
+    </type>
+  </variable>
+  <variable id="icllp_i2c2_groups" name="icllp_i2c2_groups">
+    <type size="1" class="array">
+      <type name="char" qualifier=" const *" builtin="yes" />
+    </type>
+  </variable>
+  <variable id="icllp_i2c2_pins" name="icllp_i2c2_pins">
+    <type size="2" class="array">
+      <type name="unsigned int" builtin="yes" />
+    </type>
+  </variable>
+  <variable id="icllp_i2c3_groups" name="icllp_i2c3_groups">
+    <type size="1" class="array">
+      <type name="char" qualifier=" const *" builtin="yes" />
+    </type>
+  </variable>
+  <variable id="icllp_i2c3_pins" name="icllp_i2c3_pins">
+    <type size="2" class="array">
+      <type name="unsigned int" builtin="yes" />
+    </type>
+  </variable>
+  <variable id="icllp_i2c4_groups" name="icllp_i2c4_groups">
+    <type size="1" class="array">
+      <type name="char" qualifier=" const *" builtin="yes" />
+    </type>
+  </variable>
+  <variable id="icllp_i2c4_pins" name="icllp_i2c4_pins">
+    <type size="2" class="array">
+      <type name="unsigned int" builtin="yes" />
+    </type>
+  </variable>
+  <variable id="icllp_pins" name="icllp_pins">
+    <brief>Ice Lake-LP</brief>
+    <doc />
+    <type size="241" class="array">
+      <type name="pinctrl_pin_desc" ref="pinctrl_pin_desc#pinctrl_pin_desc" />
+    </type>
+  </variable>
+  <variable id="icllp_spi0_groups" name="icllp_spi0_groups">
+    <type size="1" class="array">
+      <type name="char" qualifier=" const *" builtin="yes" />
+    </type>
+  </variable>
+  <variable id="icllp_spi0_modes" name="icllp_spi0_modes">
+    <type size="5" class="array">
+      <type name="unsigned int" builtin="yes" />
+    </type>
+  </variable>
+  <variable id="icllp_spi0_pins" name="icllp_spi0_pins">
+    <type size="5" class="array">
+      <type name="unsigned int" builtin="yes" />
+    </type>
+  </variable>
+  <variable id="icllp_spi1_groups" name="icllp_spi1_groups">
+    <type size="1" class="array">
+      <type name="char" qualifier=" const *" builtin="yes" />
+    </type>
+  </variable>
+  <variable id="icllp_spi1_modes" name="icllp_spi1_modes">
+    <type size="5" class="array">
+      <type name="unsigned int" builtin="yes" />
+    </type>
+  </variable>
+  <variable id="icllp_spi1_pins" name="icllp_spi1_pins">
+    <type size="5" class="array">
+      <type name="unsigned int" builtin="yes" />
+    </type>
+  </variable>
+  <variable id="icllp_spi2_groups" name="icllp_spi2_groups">
+    <type size="1" class="array">
+      <type name="char" qualifier=" const *" builtin="yes" />
+    </type>
+  </variable>
+  <variable id="icllp_spi2_modes" name="icllp_spi2_modes">
+    <type size="5" class="array">
+      <type name="unsigned int" builtin="yes" />
+    </type>
+  </variable>
+  <variable id="icllp_spi2_pins" name="icllp_spi2_pins">
+    <type size="5" class="array">
+      <type name="unsigned int" builtin="yes" />
+    </type>
+  </variable>
+  <variable id="icllp_uart0_groups" name="icllp_uart0_groups">
+    <type size="1" class="array">
+      <type name="char" qualifier=" const *" builtin="yes" />
+    </type>
+  </variable>
+  <variable id="icllp_uart0_pins" name="icllp_uart0_pins">
+    <type size="4" class="array">
+      <type name="unsigned int" builtin="yes" />
+    </type>
+  </variable>
+  <variable id="icllp_uart1_groups" name="icllp_uart1_groups">
+    <type size="1" class="array">
+      <type name="char" qualifier=" const *" builtin="yes" />
+    </type>
+  </variable>
+  <variable id="icllp_uart1_pins" name="icllp_uart1_pins">
+    <type size="4" class="array">
+      <type name="unsigned int" builtin="yes" />
+    </type>
+  </variable>
+  <variable id="icllp_uart2_groups" name="icllp_uart2_groups">
+    <type size="1" class="array">
+      <type name="char" qualifier=" const *" builtin="yes" />
+    </type>
+  </variable>
+  <variable id="icllp_uart2_pins" name="icllp_uart2_pins">
+    <type size="4" class="array">
+      <type name="unsigned int" builtin="yes" />
+    </type>
+  </variable>
+  <category ref="Introduction#Introduction" name="Introduction">
+    <brief>&amp;#8291;</brief>
+  </category>
+  <category ref="USB Support#USB Support" name="USB Support">
+    <brief>&amp;#8291;</brief>
+  </category>
+  <variable id="kerncz_groups" name="kerncz_groups">
+    <type size="582" class="array">
+      <type name="pingroup" qualifier=" const" ref="pingroup#pingroup" />
+    </type>
+  </variable>
+  <variable id="kerncz_pins" name="kerncz_pins">
+    <brief> KERNCZ configuration</brief>
+    <doc />
+    <type size="183" class="array">
+      <type name="pinctrl_pin_desc" qualifier=" const" ref="pinctrl_pin_desc#pinctrl_pin_desc" />
+    </type>
+  </variable>
+  <variable id="pmx_functions" name="pmx_functions">
+    <type size="144" class="array">
+      <type name="amd_function" qualifier=" const" ref="amd_function#amd_function" />
+    </type>
+  </variable>
+  <category ref="GPIO Pinning#GPIO Pinning" name="GPIO Pinning">
+    <brief>&amp;#8291;</brief>
+  </category>
+  <category ref="Polling Mode#Polling Mode" name="Polling Mode">
+    <brief>&amp;#8291;</brief>
+  </category>
+  <variable id="spth_communities" name="spth_communities">
+    <type size="3" class="array">
+      <type name="intel_community" ref="intel_community#intel_community" />
+    </type>
+  </variable>
+  <variable id="spth_functions" name="spth_functions">
+    <type size="8" class="array">
+      <type name="intel_function" ref="intel_function#intel_function" />
+    </type>
+  </variable>
+  <variable id="spth_groups" name="spth_groups">
+    <type size="8" class="array">
+      <type name="intel_pingroup" ref="intel_pingroup#intel_pingroup" />
+    </type>
+  </variable>
+  <variable id="spth_i2c0_groups" name="spth_i2c0_groups">
+    <type size="1" class="array">
+      <type name="char" qualifier=" const *" builtin="yes" />
+    </type>
+  </variable>
+  <variable id="spth_i2c0_pins" name="spth_i2c0_pins">
+    <type size="2" class="array">
+      <type name="unsigned int" builtin="yes" />
+    </type>
+  </variable>
+  <variable id="spth_i2c1_groups" name="spth_i2c1_groups">
+    <type size="1" class="array">
+      <type name="char" qualifier=" const *" builtin="yes" />
+    </type>
+  </variable>
+  <variable id="spth_i2c1_pins" name="spth_i2c1_pins">
+    <type size="2" class="array">
+      <type name="unsigned int" builtin="yes" />
+    </type>
+  </variable>
+  <variable id="spth_i2c2_groups" name="spth_i2c2_groups">
+    <type size="1" class="array">
+      <type name="char" qualifier=" const *" builtin="yes" />
+    </type>
+  </variable>
+  <variable id="spth_i2c2_pins" name="spth_i2c2_pins">
+    <type size="2" class="array">
+      <type name="unsigned int" builtin="yes" />
+    </type>
+  </variable>
+  <variable id="spth_pins" name="spth_pins">
+    <type size="192" class="array">
+      <type name="pinctrl_pin_desc" ref="pinctrl_pin_desc#pinctrl_pin_desc" />
+    </type>
+  </variable>
+  <variable id="spth_spi0_groups" name="spth_spi0_groups">
+    <type size="1" class="array">
+      <type name="char" qualifier=" const *" builtin="yes" />
+    </type>
+  </variable>
+  <variable id="spth_spi0_pins" name="spth_spi0_pins">
+    <type size="4" class="array">
+      <type name="unsigned int" builtin="yes" />
+    </type>
+  </variable>
+  <variable id="spth_spi1_groups" name="spth_spi1_groups">
+    <type size="1" class="array">
+      <type name="char" qualifier=" const *" builtin="yes" />
+    </type>
+  </variable>
+  <variable id="spth_spi1_pins" name="spth_spi1_pins">
+    <type size="4" class="array">
+      <type name="unsigned int" builtin="yes" />
+    </type>
+  </variable>
+  <variable id="spth_uart0_groups" name="spth_uart0_groups">
+    <type size="1" class="array">
+      <type name="char" qualifier=" const *" builtin="yes" />
+    </type>
+  </variable>
+  <variable id="spth_uart0_pins" name="spth_uart0_pins">
+    <type size="4" class="array">
+      <type name="unsigned int" builtin="yes" />
+    </type>
+  </variable>
+  <variable id="spth_uart1_groups" name="spth_uart1_groups">
+    <type size="1" class="array">
+      <type name="char" qualifier=" const *" builtin="yes" />
+    </type>
+  </variable>
+  <variable id="spth_uart1_pins" name="spth_uart1_pins">
+    <type size="4" class="array">
+      <type name="unsigned int" builtin="yes" />
+    </type>
+  </variable>
+  <variable id="spth_uart2_groups" name="spth_uart2_groups">
+    <type size="1" class="array">
+      <type name="char" qualifier=" const *" builtin="yes" />
+    </type>
+  </variable>
+  <variable id="spth_uart2_pins" name="spth_uart2_pins">
+    <type size="4" class="array">
+      <type name="unsigned int" builtin="yes" />
+    </type>
+  </variable>
+  <variable id="sptlp_communities" name="sptlp_communities">
+    <type size="3" class="array">
+      <type name="intel_community" ref="intel_community#intel_community" />
+    </type>
+  </variable>
+  <variable id="sptlp_emmc_groups" name="sptlp_emmc_groups">
+    <type size="1" class="array">
+      <type name="char" qualifier=" const *" builtin="yes" />
+    </type>
+  </variable>
+  <variable id="sptlp_emmc_pins" name="sptlp_emmc_pins">
+    <type size="11" class="array">
+      <type name="unsigned int" builtin="yes" />
+    </type>
+  </variable>
+  <variable id="sptlp_functions" name="sptlp_functions">
+    <type size="14" class="array">
+      <type name="intel_function" ref="intel_function#intel_function" />
+    </type>
+  </variable>
+  <variable id="sptlp_groups" name="sptlp_groups">
+    <type size="15" class="array">
+      <type name="intel_pingroup" ref="intel_pingroup#intel_pingroup" />
+    </type>
+  </variable>
+  <variable id="sptlp_i2c0_groups" name="sptlp_i2c0_groups">
+    <type size="1" class="array">
+      <type name="char" qualifier=" const *" builtin="yes" />
+    </type>
+  </variable>
+  <variable id="sptlp_i2c0_pins" name="sptlp_i2c0_pins">
+    <type size="2" class="array">
+      <type name="unsigned int" builtin="yes" />
+    </type>
+  </variable>
+  <variable id="sptlp_i2c1_groups" name="sptlp_i2c1_groups">
+    <type size="1" class="array">
+      <type name="char" qualifier=" const *" builtin="yes" />
+    </type>
+  </variable>
+  <variable id="sptlp_i2c1_pins" name="sptlp_i2c1_pins">
+    <type size="2" class="array">
+      <type name="unsigned int" builtin="yes" />
+    </type>
+  </variable>
+  <variable id="sptlp_i2c2_groups" name="sptlp_i2c2_groups">
+    <type size="1" class="array">
+      <type name="char" qualifier=" const *" builtin="yes" />
+    </type>
+  </variable>
+  <variable id="sptlp_i2c2_pins" name="sptlp_i2c2_pins">
+    <type size="2" class="array">
+      <type name="unsigned int" builtin="yes" />
+    </type>
+  </variable>
+  <variable id="sptlp_i2c3_groups" name="sptlp_i2c3_groups">
+    <type size="1" class="array">
+      <type name="char" qualifier=" const *" builtin="yes" />
+    </type>
+  </variable>
+  <variable id="sptlp_i2c3_pins" name="sptlp_i2c3_pins">
+    <type size="2" class="array">
+      <type name="unsigned int" builtin="yes" />
+    </type>
+  </variable>
+  <variable id="sptlp_i2c4_groups" name="sptlp_i2c4_groups">
+    <type size="2" class="array">
+      <type name="char" qualifier=" const *" builtin="yes" />
+    </type>
+  </variable>
+  <variable id="sptlp_i2c4_pins" name="sptlp_i2c4_pins">
+    <type size="2" class="array">
+      <type name="unsigned int" builtin="yes" />
+    </type>
+  </variable>
+  <variable id="sptlp_i2c4b_pins" name="sptlp_i2c4b_pins">
+    <type size="2" class="array">
+      <type name="unsigned int" builtin="yes" />
+    </type>
+  </variable>
+  <variable id="sptlp_i2c5_groups" name="sptlp_i2c5_groups">
+    <type size="1" class="array">
+      <type name="char" qualifier=" const *" builtin="yes" />
+    </type>
+  </variable>
+  <variable id="sptlp_i2c5_pins" name="sptlp_i2c5_pins">
+    <type size="2" class="array">
+      <type name="unsigned int" builtin="yes" />
+    </type>
+  </variable>
+  <variable id="sptlp_pins" name="sptlp_pins">
+    <type size="152" class="array">
+      <type name="pinctrl_pin_desc" ref="pinctrl_pin_desc#pinctrl_pin_desc" />
+    </type>
+  </variable>
+  <variable id="sptlp_sd_groups" name="sptlp_sd_groups">
+    <type size="1" class="array">
+      <type name="char" qualifier=" const *" builtin="yes" />
+    </type>
+  </variable>
+  <variable id="sptlp_sd_pins" name="sptlp_sd_pins">
+    <type size="8" class="array">
+      <type name="unsigned int" builtin="yes" />
+    </type>
+  </variable>
+  <variable id="sptlp_spi0_groups" name="sptlp_spi0_groups">
+    <type size="1" class="array">
+      <type name="char" qualifier=" const *" builtin="yes" />
+    </type>
+  </variable>
+  <variable id="sptlp_spi0_pins" name="sptlp_spi0_pins">
+    <type size="4" class="array">
+      <type name="unsigned int" builtin="yes" />
+    </type>
+  </variable>
+  <variable id="sptlp_spi1_groups" name="sptlp_spi1_groups">
+    <type size="1" class="array">
+      <type name="char" qualifier=" const *" builtin="yes" />
+    </type>
+  </variable>
+  <variable id="sptlp_spi1_pins" name="sptlp_spi1_pins">
+    <type size="4" class="array">
+      <type name="unsigned int" builtin="yes" />
+    </type>
+  </variable>
+  <variable id="sptlp_ssp2_groups" name="sptlp_ssp2_groups">
+    <type size="1" class="array">
+      <type name="char" qualifier=" const *" builtin="yes" />
+    </type>
+  </variable>
+  <variable id="sptlp_ssp2_pins" name="sptlp_ssp2_pins">
+    <type size="4" class="array">
+      <type name="unsigned int" builtin="yes" />
+    </type>
+  </variable>
+  <variable id="sptlp_uart0_groups" name="sptlp_uart0_groups">
+    <type size="1" class="array">
+      <type name="char" qualifier=" const *" builtin="yes" />
+    </type>
+  </variable>
+  <variable id="sptlp_uart0_pins" name="sptlp_uart0_pins">
+    <type size="4" class="array">
+      <type name="unsigned int" builtin="yes" />
+    </type>
+  </variable>
+  <variable id="sptlp_uart1_groups" name="sptlp_uart1_groups">
+    <type size="1" class="array">
+      <type name="char" qualifier=" const *" builtin="yes" />
+    </type>
+  </variable>
+  <variable id="sptlp_uart1_pins" name="sptlp_uart1_pins">
+    <type size="4" class="array">
+      <type name="unsigned int" builtin="yes" />
+    </type>
+  </variable>
+  <variable id="sptlp_uart2_groups" name="sptlp_uart2_groups">
+    <type size="1" class="array">
+      <type name="char" qualifier=" const *" builtin="yes" />
+    </type>
+  </variable>
+  <variable id="sptlp_uart2_pins" name="sptlp_uart2_pins">
+    <type size="4" class="array">
+      <type name="unsigned int" builtin="yes" />
+    </type>
+  </variable>
+  <category ref="Installation#Installation" name="Installation">
+    <brief>&amp;#8291;</brief>
+  </category>
+  <variable id="tgllp_communities" name="tgllp_communities">
+    <type size="4" class="array">
+      <type name="intel_community" ref="intel_community#intel_community" />
+    </type>
+  </variable>
+  <variable id="tgllp_community0_gpps" name="tgllp_community0_gpps">
+    <type size="3" class="array">
+      <type name="intel_padgroup" ref="intel_padgroup#intel_padgroup" />
+    </type>
+  </variable>
+  <variable id="tgllp_community1_gpps" name="tgllp_community1_gpps">
+    <type size="5" class="array">
+      <type name="intel_padgroup" ref="intel_padgroup#intel_padgroup" />
+    </type>
+  </variable>
+  <variable id="tgllp_community4_gpps" name="tgllp_community4_gpps">
+    <type size="5" class="array">
+      <type name="intel_padgroup" ref="intel_padgroup#intel_padgroup" />
+    </type>
+  </variable>
+  <variable id="tgllp_community5_gpps" name="tgllp_community5_gpps">
+    <type size="2" class="array">
+      <type name="intel_padgroup" ref="intel_padgroup#intel_padgroup" />
+    </type>
+  </variable>
+  <variable id="tgllp_functions" name="tgllp_functions">
+    <type size="11" class="array">
+      <type name="intel_function" ref="intel_function#intel_function" />
+    </type>
+  </variable>
+  <variable id="tgllp_groups" name="tgllp_groups">
+    <type size="14" class="array">
+      <type name="intel_pingroup" ref="intel_pingroup#intel_pingroup" />
+    </type>
+  </variable>
+  <variable id="tgllp_i2c0_groups" name="tgllp_i2c0_groups">
+    <type size="1" class="array">
+      <type name="char" qualifier=" const *" builtin="yes" />
+    </type>
+  </variable>
+  <variable id="tgllp_i2c0_pins" name="tgllp_i2c0_pins">
+    <type size="2" class="array">
+      <type name="unsigned int" builtin="yes" />
+    </type>
+  </variable>
+  <variable id="tgllp_i2c1_groups" name="tgllp_i2c1_groups">
+    <type size="1" class="array">
+      <type name="char" qualifier=" const *" builtin="yes" />
+    </type>
+  </variable>
+  <variable id="tgllp_i2c1_pins" name="tgllp_i2c1_pins">
+    <type size="2" class="array">
+      <type name="unsigned int" builtin="yes" />
+    </type>
+  </variable>
+  <variable id="tgllp_i2c2_groups" name="tgllp_i2c2_groups">
+    <type size="1" class="array">
+      <type name="char" qualifier=" const *" builtin="yes" />
+    </type>
+  </variable>
+  <variable id="tgllp_i2c2_pins" name="tgllp_i2c2_pins">
+    <type size="2" class="array">
+      <type name="unsigned int" builtin="yes" />
+    </type>
+  </variable>
+  <variable id="tgllp_i2c3_groups" name="tgllp_i2c3_groups">
+    <type size="1" class="array">
+      <type name="char" qualifier=" const *" builtin="yes" />
+    </type>
+  </variable>
+  <variable id="tgllp_i2c3_pins" name="tgllp_i2c3_pins">
+    <type size="2" class="array">
+      <type name="unsigned int" builtin="yes" />
+    </type>
+  </variable>
+  <variable id="tgllp_i2c4_groups" name="tgllp_i2c4_groups">
+    <type size="1" class="array">
+      <type name="char" qualifier=" const *" builtin="yes" />
+    </type>
+  </variable>
+  <variable id="tgllp_i2c4_pins" name="tgllp_i2c4_pins">
+    <type size="2" class="array">
+      <type name="unsigned int" builtin="yes" />
+    </type>
+  </variable>
+  <variable id="tgllp_i2c5_groups" name="tgllp_i2c5_groups">
+    <type size="1" class="array">
+      <type name="char" qualifier=" const *" builtin="yes" />
+    </type>
+  </variable>
+  <variable id="tgllp_i2c5_pins" name="tgllp_i2c5_pins">
+    <type size="2" class="array">
+      <type name="unsigned int" builtin="yes" />
+    </type>
+  </variable>
+  <variable id="tgllp_i2c6_groups" name="tgllp_i2c6_groups">
+    <type size="1" class="array">
+      <type name="char" qualifier=" const *" builtin="yes" />
+    </type>
+  </variable>
+  <variable id="tgllp_i2c6_pins" name="tgllp_i2c6_pins">
+    <type size="2" class="array">
+      <type name="unsigned int" builtin="yes" />
+    </type>
+  </variable>
+  <variable id="tgllp_i2c7_groups" name="tgllp_i2c7_groups">
+    <type size="1" class="array">
+      <type name="char" qualifier=" const *" builtin="yes" />
+    </type>
+  </variable>
+  <variable id="tgllp_i2c7_pins" name="tgllp_i2c7_pins">
+    <type size="2" class="array">
+      <type name="unsigned int" builtin="yes" />
+    </type>
+  </variable>
+  <variable id="tgllp_pins" name="tgllp_pins">
+    <brief>Tiger Lake-LP</brief>
+    <doc />
+    <type size="277" class="array">
+      <type name="pinctrl_pin_desc" ref="pinctrl_pin_desc#pinctrl_pin_desc" />
+    </type>
+  </variable>
+  <variable id="tgllp_spi0_groups" name="tgllp_spi0_groups">
+    <type size="1" class="array">
+      <type name="char" qualifier=" const *" builtin="yes" />
+    </type>
+  </variable>
+  <variable id="tgllp_spi0_modes" name="tgllp_spi0_modes">
+    <type size="5" class="array">
+      <type name="unsigned int" builtin="yes" />
+    </type>
+  </variable>
+  <variable id="tgllp_spi0_pins" name="tgllp_spi0_pins">
+    <type size="5" class="array">
+      <type name="unsigned int" builtin="yes" />
+    </type>
+  </variable>
+  <variable id="tgllp_spi1_groups" name="tgllp_spi1_groups">
+    <type size="1" class="array">
+      <type name="char" qualifier=" const *" builtin="yes" />
+    </type>
+  </variable>
+  <variable id="tgllp_spi1_modes" name="tgllp_spi1_modes">
+    <type size="5" class="array">
+      <type name="unsigned int" builtin="yes" />
+    </type>
+  </variable>
+  <variable id="tgllp_spi1_pins" name="tgllp_spi1_pins">
+    <type size="5" class="array">
+      <type name="unsigned int" builtin="yes" />
+    </type>
+  </variable>
+  <variable id="tgllp_spi2_groups" name="tgllp_spi2_groups">
+    <type size="1" class="array">
+      <type name="char" qualifier=" const *" builtin="yes" />
+    </type>
+  </variable>
+  <variable id="tgllp_spi2_modes" name="tgllp_spi2_modes">
+    <type size="5" class="array">
+      <type name="unsigned int" builtin="yes" />
+    </type>
+  </variable>
+  <variable id="tgllp_spi2_pins" name="tgllp_spi2_pins">
+    <type size="5" class="array">
+      <type name="unsigned int" builtin="yes" />
+    </type>
+  </variable>
+  <variable id="tgllp_uart0_groups" name="tgllp_uart0_groups">
+    <type size="1" class="array">
+      <type name="char" qualifier=" const *" builtin="yes" />
+    </type>
+  </variable>
+  <variable id="tgllp_uart0_pins" name="tgllp_uart0_pins">
+    <type size="4" class="array">
+      <type name="unsigned int" builtin="yes" />
+    </type>
+  </variable>
+  <variable id="tgllp_uart1_groups" name="tgllp_uart1_groups">
+    <type size="1" class="array">
+      <type name="char" qualifier=" const *" builtin="yes" />
+    </type>
+  </variable>
+  <variable id="tgllp_uart1_pins" name="tgllp_uart1_pins">
+    <type size="4" class="array">
+      <type name="unsigned int" builtin="yes" />
+    </type>
+  </variable>
+  <variable id="tgllp_uart2_groups" name="tgllp_uart2_groups">
+    <type size="1" class="array">
+      <type name="char" qualifier=" const *" builtin="yes" />
+    </type>
+  </variable>
+  <variable id="tgllp_uart2_pins" name="tgllp_uart2_pins">
+    <type size="4" class="array">
+      <type name="unsigned int" builtin="yes" />
+    </type>
+  </variable>
+  <category ref="Satellite Kexts#Satellite Kexts" name="Satellite Kexts">
+    <brief>&amp;#8291;</brief>
+  </category>
+  <category ref="Common Errors#Common Errors" name="Common Errors">
+    <brief>&amp;#8291;</brief>
+  </category>
+  <variable id="VoodooI2CIOPMPowerStates" name="VoodooI2CIOPMPowerStates">
+    <type size="2" class="array">
+      <type name="IOPMPowerState" />
+    </type>
+  </variable>
+  <struct ref="amd_function#amd_function" name="amd_function" />
+  <struct ref="DigitiserTransducerAziAltiOrentation#DigitiserTransducerAziAltiOrentation" name="DigitiserTransducerAziAltiOrentation" />
+  <struct ref="DigitiserTransducerCoordinates#DigitiserTransducerCoordinates" name="DigitiserTransducerCoordinates" />
+  <struct ref="DigitiserTransducerDimensions#DigitiserTransducerDimensions" name="DigitiserTransducerDimensions" />
+  <struct ref="DigitiserTransducerTiltOrientation#DigitiserTransducerTiltOrientation" name="DigitiserTransducerTiltOrientation" />
+  <struct ref="gpio_int_info#gpio_int_info" name="gpio_int_info" />
+  <struct ref="gpio_io_info#gpio_io_info" name="gpio_io_info" />
+  <struct ref="i2c_hid_quirks#i2c_hid_quirks" name="i2c_hid_quirks" />
+  <struct ref="i2c_info#i2c_info" name="i2c_info" />
+  <struct ref="intel_community#intel_community" name="intel_community">
+    <brief>*</brief>
+  </struct>
+  <struct ref="intel_community_context#intel_community_context" name="intel_community_context" />
+  <struct ref="intel_function#intel_function" name="intel_function">
+    <brief>*</brief>
+  </struct>
+  <struct ref="intel_pad_context#intel_pad_context" name="intel_pad_context" />
+  <struct ref="intel_padgroup#intel_padgroup" name="intel_padgroup">
+    <brief>*</brief>
+  </struct>
+  <struct ref="intel_pinctrl_context#intel_pinctrl_context" name="intel_pinctrl_context" />
+  <struct ref="intel_pingroup#intel_pingroup" name="intel_pingroup">
+    <brief>*</brief>
+  </struct>
+  <struct ref="pdt_entry#pdt_entry" name="pdt_entry" />
+  <struct ref="pinctrl_pin_desc#pinctrl_pin_desc" name="pinctrl_pin_desc" />
+  <struct ref="pingroup#pingroup" name="pingroup">
+    <brief>*</brief>
+  </struct>
+  <struct ref="rmi_function#rmi_function" name="rmi_function" />
+  <class ref="TimeTrackedValue#TimeTrackedValue" name="TimeTrackedValue">
+    <brief>Tracks a &amp;lt;UInt16&amp;gt; value with the current and last value being accessible with their respective timestamps</brief>
+  </class>
+  <struct ref="ValueWithTime#ValueWithTime" name="ValueWithTime" />
+  <class ref="VoodooGPIO#VoodooGPIO" name="VoodooGPIO">
+    <class ref="VoodooGPIO::MetaClass#VoodooGPIO::MetaClass" name="MetaClass" />
+  </class>
+  <class ref="VoodooGPIOAMD#VoodooGPIOAMD" name="VoodooGPIOAMD">
+    <class ref="VoodooGPIOAMD::MetaClass#VoodooGPIOAMD::MetaClass" name="MetaClass" />
+  </class>
+  <class ref="VoodooGPIOCannonLakeH#VoodooGPIOCannonLakeH" name="VoodooGPIOCannonLakeH">
+    <class ref="VoodooGPIOCannonLakeH::MetaClass#VoodooGPIOCannonLakeH::MetaClass" name="MetaClass" />
+  </class>
+  <class ref="VoodooGPIOCannonLakeLP#VoodooGPIOCannonLakeLP" name="VoodooGPIOCannonLakeLP">
+    <class ref="VoodooGPIOCannonLakeLP::MetaClass#VoodooGPIOCannonLakeLP::MetaClass" name="MetaClass" />
+  </class>
+  <class ref="VoodooGPIOIceLakeLP#VoodooGPIOIceLakeLP" name="VoodooGPIOIceLakeLP">
+    <class ref="VoodooGPIOIceLakeLP::MetaClass#VoodooGPIOIceLakeLP::MetaClass" name="MetaClass" />
+  </class>
+  <class ref="VoodooGPIOIntel#VoodooGPIOIntel" name="VoodooGPIOIntel">
+    <class ref="VoodooGPIOIntel::MetaClass#VoodooGPIOIntel::MetaClass" name="MetaClass" />
+  </class>
+  <class ref="VoodooGPIOSunrisePointH#VoodooGPIOSunrisePointH" name="VoodooGPIOSunrisePointH">
+    <class ref="VoodooGPIOSunrisePointH::MetaClass#VoodooGPIOSunrisePointH::MetaClass" name="MetaClass" />
+  </class>
+  <class ref="VoodooGPIOSunrisePointLP#VoodooGPIOSunrisePointLP" name="VoodooGPIOSunrisePointLP">
+    <class ref="VoodooGPIOSunrisePointLP::MetaClass#VoodooGPIOSunrisePointLP::MetaClass" name="MetaClass" />
+  </class>
+  <class ref="VoodooGPIOTigerLakeLP#VoodooGPIOTigerLakeLP" name="VoodooGPIOTigerLakeLP">
+    <class ref="VoodooGPIOTigerLakeLP::MetaClass#VoodooGPIOTigerLakeLP::MetaClass" name="MetaClass" />
+  </class>
+  <class ref="VoodooI2CAccelerometerSensor#VoodooI2CAccelerometerSensor" name="VoodooI2CAccelerometerSensor">
+    <class ref="VoodooI2CAccelerometerSensor::MetaClass#VoodooI2CAccelerometerSensor::MetaClass" name="MetaClass" />
+  </class>
+  <class ref="VoodooI2CACPIController#VoodooI2CACPIController" name="VoodooI2CACPIController">
+    <brief> Implements an ACPI Synopsys DesignWare I2C Controller</brief>
+    <class ref="VoodooI2CACPIController::MetaClass#VoodooI2CACPIController::MetaClass" name="MetaClass" />
+  </class>
+  <class ref="VoodooI2CACPIResourcesParser#VoodooI2CACPIResourcesParser" name="VoodooI2CACPIResourcesParser" />
+  <class ref="VoodooI2CAtmelMXTTouchDriver#VoodooI2CAtmelMXTTouchDriver" name="VoodooI2CAtmelMXTTouchDriver">
+    <class ref="VoodooI2CAtmelMXTTouchDriver::MetaClass#VoodooI2CAtmelMXTTouchDriver::MetaClass" name="MetaClass" />
+  </class>
+  <class ref="VoodooI2CController#VoodooI2CController" name="VoodooI2CController">
+    <brief> Implements a Synopsys DesignWare I2C Controller</brief>
+    <class ref="VoodooI2CController::MetaClass#VoodooI2CController::MetaClass" name="MetaClass" />
+  </class>
+  <struct ref="VoodooI2CControllerBusConfig#VoodooI2CControllerBusConfig" name="VoodooI2CControllerBusConfig" />
+  <struct ref="VoodooI2CControllerBusDevice#VoodooI2CControllerBusDevice" name="VoodooI2CControllerBusDevice" />
+  <struct ref="VoodooI2CControllerBusMessage#VoodooI2CControllerBusMessage" name="VoodooI2CControllerBusMessage" />
+  <class ref="VoodooI2CControllerDriver#VoodooI2CControllerDriver" name="VoodooI2CControllerDriver">
+    <brief> Implements a driver for the Synopsys DesignWare I2C Controller which attaches to a <ref ref="VoodooI2CControllerNub#VoodooI2CControllerNub">VoodooI2CControllerNub</ref> object</brief>
+    <class ref="VoodooI2CControllerDriver::MetaClass#VoodooI2CControllerDriver::MetaClass" name="MetaClass" />
+  </class>
+  <class ref="VoodooI2CControllerNub#VoodooI2CControllerNub" name="VoodooI2CControllerNub">
+    <brief> Implements a controller nub to which an instance of <ref ref="VoodooI2CControllerDriver#VoodooI2CControllerDriver">VoodooI2CControllerDriver</ref> may attach</brief>
+    <class ref="VoodooI2CControllerNub::MetaClass#VoodooI2CControllerNub::MetaClass" name="MetaClass" />
+  </class>
+  <struct ref="VoodooI2CControllerPhysicalDevice#VoodooI2CControllerPhysicalDevice" name="VoodooI2CControllerPhysicalDevice" />
+  <class ref="VoodooI2CDeviceNub#VoodooI2CDeviceNub" name="VoodooI2CDeviceNub">
+    <brief> Implements a device nub to which an instance of a device driver may attach. Examples include <ref ref="VoodooI2CHIDDevice#VoodooI2CHIDDevice">VoodooI2CHIDDevice</ref>
+    </brief>
+    <class ref="VoodooI2CDeviceNub::MetaClass#VoodooI2CDeviceNub::MetaClass" name="MetaClass" />
+  </class>
+  <class ref="VoodooI2CDeviceOrientationSensor#VoodooI2CDeviceOrientationSensor" name="VoodooI2CDeviceOrientationSensor">
+    <class ref="VoodooI2CDeviceOrientationSensor::MetaClass#VoodooI2CDeviceOrientationSensor::MetaClass" name="MetaClass" />
+  </class>
+  <class ref="VoodooI2CDigitiserStylus#VoodooI2CDigitiserStylus" name="VoodooI2CDigitiserStylus">
+    <brief>Represents a stylus-type transducer</brief>
+    <class ref="VoodooI2CDigitiserStylus::MetaClass#VoodooI2CDigitiserStylus::MetaClass" name="MetaClass" />
+  </class>
+  <class ref="VoodooI2CDigitiserTransducer#VoodooI2CDigitiserTransducer" name="VoodooI2CDigitiserTransducer">
+    <brief>Represents a transducer of a physical digitiser device</brief>
+    <class ref="VoodooI2CDigitiserTransducer::MetaClass#VoodooI2CDigitiserTransducer::MetaClass" name="MetaClass" />
+  </class>
+  <class ref="VoodooI2CELANTouchpadDriver#VoodooI2CELANTouchpadDriver" name="VoodooI2CELANTouchpadDriver">
+    <brief>Main class that handles all communication between macOS, VoodooI2C, and a I2C based ELAN touchpad</brief>
+    <class ref="VoodooI2CELANTouchpadDriver::MetaClass#VoodooI2CELANTouchpadDriver::MetaClass" name="MetaClass" />
+  </class>
+  <class ref="VoodooI2CFTETouchpadDriver#VoodooI2CFTETouchpadDriver" name="VoodooI2CFTETouchpadDriver">
+    <brief>Main class that handles all communication between macOS, VoodooI2C, and a I2C based FTE touchpad</brief>
+    <class ref="VoodooI2CFTETouchpadDriver::MetaClass#VoodooI2CFTETouchpadDriver::MetaClass" name="MetaClass" />
+  </class>
+  <class ref="VoodooI2CHIDDevice#VoodooI2CHIDDevice" name="VoodooI2CHIDDevice">
+    <brief> Implements an I2C-HID device as specified by Microsoft's protocol in the following document: http://download.microsoft.com/download/7/D/D/7DD44BB7-2A7A-4505-AC1C-7227D3D96D5B/hid-over-i2c-protocol-spec-v1-0.docx</brief>
+    <class ref="VoodooI2CHIDDevice::MetaClass#VoodooI2CHIDDevice::MetaClass" name="MetaClass" />
+  </class>
+  <struct ref="VoodooI2CHIDDeviceHIDDescriptor#VoodooI2CHIDDeviceHIDDescriptor" name="VoodooI2CHIDDeviceHIDDescriptor" />
+  <class ref="VoodooI2CHIDDeviceOverride#VoodooI2CHIDDeviceOverride" name="VoodooI2CHIDDeviceOverride">
+    <class ref="VoodooI2CHIDDeviceOverride::MetaClass#VoodooI2CHIDDeviceOverride::MetaClass" name="MetaClass" />
+  </class>
+  <class ref="VoodooI2CHIDSYNA3602Device#VoodooI2CHIDSYNA3602Device" name="VoodooI2CHIDSYNA3602Device">
+    <class ref="VoodooI2CHIDSYNA3602Device::MetaClass#VoodooI2CHIDSYNA3602Device::MetaClass" name="MetaClass" />
+  </class>
+  <class ref="VoodooI2CHIDTransducerWrapper#VoodooI2CHIDTransducerWrapper" name="VoodooI2CHIDTransducerWrapper">
+    <class ref="VoodooI2CHIDTransducerWrapper::MetaClass#VoodooI2CHIDTransducerWrapper::MetaClass" name="MetaClass" />
+  </class>
+  <class ref="VoodooI2CLogger#VoodooI2CLogger" name="VoodooI2CLogger">
+    <class ref="VoodooI2CLogger::MetaClass#VoodooI2CLogger::MetaClass" name="MetaClass" />
+  </class>
+  <class ref="VoodooI2CMultitouchEngine#VoodooI2CMultitouchEngine" name="VoodooI2CMultitouchEngine">
+    <brief>Base class that all mutltitouch engines should inherit from</brief>
+    <class ref="VoodooI2CMultitouchEngine::MetaClass#VoodooI2CMultitouchEngine::MetaClass" name="MetaClass" />
+  </class>
+  <struct ref="VoodooI2CMultitouchEvent#VoodooI2CMultitouchEvent" name="VoodooI2CMultitouchEvent" />
+  <class ref="VoodooI2CMultitouchHIDEventDriver#VoodooI2CMultitouchHIDEventDriver" name="VoodooI2CMultitouchHIDEventDriver">
+    <brief> Implements an HID Event Driver for HID devices that expose a digitiser usage page.</brief>
+    <struct ref="VoodooI2CMultitouchHIDEventDriver::Digitiser#VoodooI2CMultitouchHIDEventDriver::Digitiser" name="Digitiser" />
+    <class ref="VoodooI2CMultitouchHIDEventDriver::MetaClass#VoodooI2CMultitouchHIDEventDriver::MetaClass" name="MetaClass" />
+  </class>
+  <class ref="VoodooI2CMultitouchInterface#VoodooI2CMultitouchInterface" name="VoodooI2CMultitouchInterface">
+    <brief> Acts as a middleman between multitouch capable device drivers such as &amp;lt;VoodooI2CHIDMultitouchEventDriver&amp;gt; and a <ref ref="VoodooI2CMultitouchEngine#VoodooI2CMultitouchEngine">VoodooI2CMultitouchEngine</ref>
+    </brief>
+    <class ref="VoodooI2CMultitouchInterface::MetaClass#VoodooI2CMultitouchInterface::MetaClass" name="MetaClass" />
+  </class>
+  <class ref="VoodooI2CNativeEngine#VoodooI2CNativeEngine" name="VoodooI2CNativeEngine">
+    <class ref="VoodooI2CNativeEngine::MetaClass#VoodooI2CNativeEngine::MetaClass" name="MetaClass" />
+  </class>
+  <class ref="VoodooI2CPCIController#VoodooI2CPCIController" name="VoodooI2CPCIController">
+    <brief> Implements a PCI Intel LPSS Synopsys DesignWare I2C Controller</brief>
+    <class ref="VoodooI2CPCIController::MetaClass#VoodooI2CPCIController::MetaClass" name="MetaClass" />
+  </class>
+  <class ref="VoodooI2CPCILakeController#VoodooI2CPCILakeController" name="VoodooI2CPCILakeController">
+    <brief> Override power management for Comet Lake and newer platforms</brief>
+    <class ref="VoodooI2CPCILakeController::MetaClass#VoodooI2CPCILakeController::MetaClass" name="MetaClass" />
+  </class>
+  <struct ref="VoodooI2CPrecisionTouchpadFeatureReport#VoodooI2CPrecisionTouchpadFeatureReport" name="VoodooI2CPrecisionTouchpadFeatureReport">
+    <brief>Darwin major version for Catalina</brief>
+  </struct>
+  <class ref="VoodooI2CPrecisionTouchpadHIDEventDriver#VoodooI2CPrecisionTouchpadHIDEventDriver" name="VoodooI2CPrecisionTouchpadHIDEventDriver">
+    <brief> Implements an HID Event Driver for Precision Touchpad devices as specified by Microsoft's protocol in the following document: https://docs.microsoft.com/en-us/windows-hardware/design/component-guidelines/precision-touchpad-devices</brief>
+    <class ref="VoodooI2CPrecisionTouchpadHIDEventDriver::MetaClass#VoodooI2CPrecisionTouchpadHIDEventDriver::MetaClass" name="MetaClass" />
+  </class>
+  <struct ref="VoodooI2CQuaternion#VoodooI2CQuaternion" name="VoodooI2CQuaternion" />
+  <class ref="VoodooI2CSensor#VoodooI2CSensor" name="VoodooI2CSensor">
+    <class ref="VoodooI2CSensor::MetaClass#VoodooI2CSensor::MetaClass" name="MetaClass" />
+  </class>
+  <struct ref="VoodooI2CSensorFeatureReport#VoodooI2CSensorFeatureReport" name="VoodooI2CSensorFeatureReport" />
+  <class ref="VoodooI2CSensorHubEnabler#VoodooI2CSensorHubEnabler" name="VoodooI2CSensorHubEnabler">
+    <class ref="VoodooI2CSensorHubEnabler::MetaClass#VoodooI2CSensorHubEnabler::MetaClass" name="MetaClass" />
+  </class>
+  <class ref="VoodooI2CSensorHubEventDriver#VoodooI2CSensorHubEventDriver" name="VoodooI2CSensorHubEventDriver">
+    <class ref="VoodooI2CSensorHubEventDriver::MetaClass#VoodooI2CSensorHubEventDriver::MetaClass" name="MetaClass" />
+  </class>
+  <class ref="VoodooI2CServices#VoodooI2CServices" name="VoodooI2CServices">
+    <brief>Provides various services to all VoodooI2C related classes.</brief>
+    <class ref="VoodooI2CServices::MetaClass#VoodooI2CServices::MetaClass" name="MetaClass" />
+  </class>
+  <class ref="VoodooI2CStylusHIDEventDriver#VoodooI2CStylusHIDEventDriver" name="VoodooI2CStylusHIDEventDriver">
+    <class ref="VoodooI2CStylusHIDEventDriver::MetaClass#VoodooI2CStylusHIDEventDriver::MetaClass" name="MetaClass" />
+  </class>
+  <class ref="VoodooI2CSynapticsDevice#VoodooI2CSynapticsDevice" name="VoodooI2CSynapticsDevice">
+    <class ref="VoodooI2CSynapticsDevice::MetaClass#VoodooI2CSynapticsDevice::MetaClass" name="MetaClass" />
+  </class>
+  <class ref="VoodooI2CTouchscreenHIDEventDriver#VoodooI2CTouchscreenHIDEventDriver" name="VoodooI2CTouchscreenHIDEventDriver">
+    <brief> Implements an HID Event Driver for touchscreen devices as well as stylus input.</brief>
+    <class ref="VoodooI2CTouchscreenHIDEventDriver::MetaClass#VoodooI2CTouchscreenHIDEventDriver::MetaClass" name="MetaClass" />
+  </class>
+  <enum id="(unnamed enum at /Users/runner/work/VoodooI2C/VoodooI2C/Dependencies/VoodooI2CACPIResourcesParser/linuxirq.hpp:12:1)" name="(unnamed enum at /Users/runner/work/VoodooI2C/VoodooI2C/Dependencies/VoodooI2CACPIResourcesParser/linuxirq.hpp:12:1)" anonymous="yes">
+    <enumvalue id="IRQ_TYPE_NONE" name="IRQ_TYPE_NONE" value="0" />
+    <enumvalue id="IRQ_TYPE_EDGE_RISING" name="IRQ_TYPE_EDGE_RISING" value="1" />
+    <enumvalue id="IRQ_TYPE_EDGE_FALLING" name="IRQ_TYPE_EDGE_FALLING" value="2" />
+    <enumvalue id="IRQ_TYPE_EDGE_BOTH" name="IRQ_TYPE_EDGE_BOTH" value="3" />
+    <enumvalue id="IRQ_TYPE_LEVEL_HIGH" name="IRQ_TYPE_LEVEL_HIGH" value="4" />
+    <enumvalue id="IRQ_TYPE_LEVEL_LOW" name="IRQ_TYPE_LEVEL_LOW" value="8" />
+    <enumvalue id="IRQ_TYPE_LEVEL_MASK" name="IRQ_TYPE_LEVEL_MASK" value="12" />
+    <enumvalue id="IRQ_TYPE_SENSE_MASK" name="IRQ_TYPE_SENSE_MASK" value="15" />
+    <enumvalue id="IRQ_TYPE_DEFAULT" name="IRQ_TYPE_DEFAULT" value="15" />
+    <enumvalue id="IRQ_TYPE_PROBE" name="IRQ_TYPE_PROBE" value="16" />
+    <enumvalue id="IRQ_LEVEL" name="IRQ_LEVEL" value="256" />
+    <enumvalue id="IRQ_PER_CPU" name="IRQ_PER_CPU" value="512" />
+    <enumvalue id="IRQ_NOPROBE" name="IRQ_NOPROBE" value="1024" />
+    <enumvalue id="IRQ_NOREQUEST" name="IRQ_NOREQUEST" value="2048" />
+    <enumvalue id="IRQ_NOAUTOEN" name="IRQ_NOAUTOEN" value="4096" />
+    <enumvalue id="IRQ_NO_BALANCING" name="IRQ_NO_BALANCING" value="8192" />
+    <enumvalue id="IRQ_MOVE_PCNTXT" name="IRQ_MOVE_PCNTXT" value="16384" />
+    <enumvalue id="IRQ_NESTED_THREAD" name="IRQ_NESTED_THREAD" value="32768" />
+    <enumvalue id="IRQ_NOTHREAD" name="IRQ_NOTHREAD" value="65536" />
+    <enumvalue id="IRQ_PER_CPU_DEVID" name="IRQ_PER_CPU_DEVID" value="131072" />
+    <enumvalue id="IRQ_IS_POLLED" name="IRQ_IS_POLLED" value="262144" />
+    <enumvalue id="IRQ_DISABLE_UNLAZY" name="IRQ_DISABLE_UNLAZY" value="524288" />
+  </enum>
+  <enum id="(unnamed enum at /Users/runner/work/VoodooI2C/VoodooI2C/Multitouch Support/VoodooI2CMultitouchInterface.hpp:21:1)" name="(unnamed enum at /Users/runner/work/VoodooI2C/VoodooI2C/Multitouch Support/VoodooI2CMultitouchInterface.hpp:21:1)" anonymous="yes">
+    <enumvalue id="kIOFBRotateFlags" name="kIOFBRotateFlags" value="15">
+      <brief>transforms</brief>
+      <doc />
+    </enumvalue>
+    <enumvalue id="kIOFBSwapAxes" name="kIOFBSwapAxes" value="1" />
+    <enumvalue id="kIOFBInvertX" name="kIOFBInvertX" value="2" />
+    <enumvalue id="kIOFBInvertY" name="kIOFBInvertY" value="4" />
+    <enumvalue id="kIOFBRotate0" name="kIOFBRotate0" value="0" />
+    <enumvalue id="kIOFBRotate90" name="kIOFBRotate90" value="3" />
+    <enumvalue id="kIOFBRotate180" name="kIOFBRotate180" value="6" />
+    <enumvalue id="kIOFBRotate270" name="kIOFBRotate270" value="5" />
+  </enum>
+  <enum id="(unnamed enum at /Users/runner/work/VoodooI2C/VoodooI2C/VoodooI2C Satellites/VoodooI2CFTE/VoodooI2CFTE/VoodooI2CFTETouchpadDriver.hpp:26:1)" name="(unnamed enum at /Users/runner/work/VoodooI2C/VoodooI2C/VoodooI2C Satellites/VoodooI2CFTE/VoodooI2CFTE/VoodooI2CFTETouchpadDriver.hpp:26:1)" anonymous="yes">
+    <brief>Message types defined by ApplePS2Keyboard</brief>
+    <doc />
+    <enumvalue id="kKeyboardSetTouchStatus" name="kKeyboardSetTouchStatus" value="3825172580">
+      <brief>from keyboard to mouse/touchpad</brief>
+      <doc />
+    </enumvalue>
+    <enumvalue id="kKeyboardGetTouchStatus" name="kKeyboardGetTouchStatus" value="3825172581">
+      <brief>set disable/enable touchpad (data is bool*)</brief>
+      <doc />
+    </enumvalue>
+    <enumvalue id="kKeyboardKeyPressTime" name="kKeyboardKeyPressTime" value="3825172590">
+      <brief>get disable/enable touchpad (data is bool*)</brief>
+      <doc />
+    </enumvalue>
+  </enum>
+  <enum id="(unnamed enum at /Users/runner/work/VoodooI2C/VoodooI2C/VoodooI2C Satellites/VoodooI2CHID/VoodooI2CHID/Sensors/VoodooI2CAccelerometerSensor.hpp:24:1)" name="(unnamed enum at /Users/runner/work/VoodooI2C/VoodooI2C/VoodooI2C Satellites/VoodooI2CHID/VoodooI2CHID/Sensors/VoodooI2CAccelerometerSensor.hpp:24:1)" anonymous="yes">
+    <enumvalue id="kIOFBSetTransform" name="kIOFBSetTransform" value="1024" />
+  </enum>
+  <enum id="(unnamed enum at /Users/runner/work/VoodooI2C/VoodooI2C/VoodooI2C Satellites/VoodooI2CHID/VoodooI2CHID/Sensors/VoodooI2CAccelerometerSensor.hpp:28:1)" name="(unnamed enum at /Users/runner/work/VoodooI2C/VoodooI2C/VoodooI2C Satellites/VoodooI2CHID/VoodooI2CHID/Sensors/VoodooI2CAccelerometerSensor.hpp:28:1)" anonymous="yes">
+    <enumvalue id="kIOScaleRotateFlat" name="kIOScaleRotateFlat" value="112" />
+  </enum>
+  <enum id="amd_functions" name="amd_functions" anonymous="yes">
+    <enumvalue id="IMX_F0_GPIO0" name="IMX_F0_GPIO0" value="0" />
+    <enumvalue id="IMX_F1_GPIO0" name="IMX_F1_GPIO0" value="1" />
+    <enumvalue id="IMX_F2_GPIO0" name="IMX_F2_GPIO0" value="2" />
+    <enumvalue id="IMX_F3_GPIO0" name="IMX_F3_GPIO0" value="3" />
+    <enumvalue id="IMX_F0_GPIO1" name="IMX_F0_GPIO1" value="4" />
+    <enumvalue id="IMX_F1_GPIO1" name="IMX_F1_GPIO1" value="5" />
+    <enumvalue id="IMX_F2_GPIO1" name="IMX_F2_GPIO1" value="6" />
+    <enumvalue id="IMX_F3_GPIO1" name="IMX_F3_GPIO1" value="7" />
+    <enumvalue id="IMX_F0_GPIO2" name="IMX_F0_GPIO2" value="8" />
+    <enumvalue id="IMX_F1_GPIO2" name="IMX_F1_GPIO2" value="9" />
+    <enumvalue id="IMX_F2_GPIO2" name="IMX_F2_GPIO2" value="10" />
+    <enumvalue id="IMX_F3_GPIO2" name="IMX_F3_GPIO2" value="11" />
+    <enumvalue id="IMX_F0_GPIO3" name="IMX_F0_GPIO3" value="12" />
+    <enumvalue id="IMX_F1_GPIO3" name="IMX_F1_GPIO3" value="13" />
+    <enumvalue id="IMX_F2_GPIO3" name="IMX_F2_GPIO3" value="14" />
+    <enumvalue id="IMX_F3_GPIO3" name="IMX_F3_GPIO3" value="15" />
+    <enumvalue id="IMX_F0_GPIO4" name="IMX_F0_GPIO4" value="16" />
+    <enumvalue id="IMX_F1_GPIO4" name="IMX_F1_GPIO4" value="17" />
+    <enumvalue id="IMX_F2_GPIO4" name="IMX_F2_GPIO4" value="18" />
+    <enumvalue id="IMX_F3_GPIO4" name="IMX_F3_GPIO4" value="19" />
+    <enumvalue id="IMX_F0_GPIO5" name="IMX_F0_GPIO5" value="20" />
+    <enumvalue id="IMX_F1_GPIO5" name="IMX_F1_GPIO5" value="21" />
+    <enumvalue id="IMX_F2_GPIO5" name="IMX_F2_GPIO5" value="22" />
+    <enumvalue id="IMX_F3_GPIO5" name="IMX_F3_GPIO5" value="23" />
+    <enumvalue id="IMX_F0_GPIO6" name="IMX_F0_GPIO6" value="24" />
+    <enumvalue id="IMX_F1_GPIO6" name="IMX_F1_GPIO6" value="25" />
+    <enumvalue id="IMX_F2_GPIO6" name="IMX_F2_GPIO6" value="26" />
+    <enumvalue id="IMX_F3_GPIO6" name="IMX_F3_GPIO6" value="27" />
+    <enumvalue id="IMX_F0_GPIO7" name="IMX_F0_GPIO7" value="28" />
+    <enumvalue id="IMX_F1_GPIO7" name="IMX_F1_GPIO7" value="29" />
+    <enumvalue id="IMX_F2_GPIO7" name="IMX_F2_GPIO7" value="30" />
+    <enumvalue id="IMX_F3_GPIO7" name="IMX_F3_GPIO7" value="31" />
+    <enumvalue id="IMX_F0_GPIO8" name="IMX_F0_GPIO8" value="32" />
+    <enumvalue id="IMX_F1_GPIO8" name="IMX_F1_GPIO8" value="33" />
+    <enumvalue id="IMX_F2_GPIO8" name="IMX_F2_GPIO8" value="34" />
+    <enumvalue id="IMX_F3_GPIO8" name="IMX_F3_GPIO8" value="35" />
+    <enumvalue id="IMX_F0_GPIO9" name="IMX_F0_GPIO9" value="36" />
+    <enumvalue id="IMX_F1_GPIO9" name="IMX_F1_GPIO9" value="37" />
+    <enumvalue id="IMX_F2_GPIO9" name="IMX_F2_GPIO9" value="38" />
+    <enumvalue id="IMX_F3_GPIO9" name="IMX_F3_GPIO9" value="39" />
+    <enumvalue id="IMX_F0_GPIO10" name="IMX_F0_GPIO10" value="40" />
+    <enumvalue id="IMX_F1_GPIO10" name="IMX_F1_GPIO10" value="41" />
+    <enumvalue id="IMX_F2_GPIO10" name="IMX_F2_GPIO10" value="42" />
+    <enumvalue id="IMX_F3_GPIO10" name="IMX_F3_GPIO10" value="43" />
+    <enumvalue id="IMX_F0_GPIO11" name="IMX_F0_GPIO11" value="44" />
+    <enumvalue id="IMX_F1_GPIO11" name="IMX_F1_GPIO11" value="45" />
+    <enumvalue id="IMX_F2_GPIO11" name="IMX_F2_GPIO11" value="46" />
+    <enumvalue id="IMX_F3_GPIO11" name="IMX_F3_GPIO11" value="47" />
+    <enumvalue id="IMX_F0_GPIO12" name="IMX_F0_GPIO12" value="48" />
+    <enumvalue id="IMX_F1_GPIO12" name="IMX_F1_GPIO12" value="49" />
+    <enumvalue id="IMX_F2_GPIO12" name="IMX_F2_GPIO12" value="50" />
+    <enumvalue id="IMX_F3_GPIO12" name="IMX_F3_GPIO12" value="51" />
+    <enumvalue id="IMX_F0_GPIO13" name="IMX_F0_GPIO13" value="52" />
+    <enumvalue id="IMX_F1_GPIO13" name="IMX_F1_GPIO13" value="53" />
+    <enumvalue id="IMX_F2_GPIO13" name="IMX_F2_GPIO13" value="54" />
+    <enumvalue id="IMX_F3_GPIO13" name="IMX_F3_GPIO13" value="55" />
+    <enumvalue id="IMX_F0_GPIO14" name="IMX_F0_GPIO14" value="56" />
+    <enumvalue id="IMX_F1_GPIO14" name="IMX_F1_GPIO14" value="57" />
+    <enumvalue id="IMX_F2_GPIO14" name="IMX_F2_GPIO14" value="58" />
+    <enumvalue id="IMX_F3_GPIO14" name="IMX_F3_GPIO14" value="59" />
+    <enumvalue id="IMX_F0_GPIO15" name="IMX_F0_GPIO15" value="60" />
+    <enumvalue id="IMX_F1_GPIO15" name="IMX_F1_GPIO15" value="61" />
+    <enumvalue id="IMX_F2_GPIO15" name="IMX_F2_GPIO15" value="62" />
+    <enumvalue id="IMX_F3_GPIO15" name="IMX_F3_GPIO15" value="63" />
+    <enumvalue id="IMX_F0_GPIO16" name="IMX_F0_GPIO16" value="64" />
+    <enumvalue id="IMX_F1_GPIO16" name="IMX_F1_GPIO16" value="65" />
+    <enumvalue id="IMX_F2_GPIO16" name="IMX_F2_GPIO16" value="66" />
+    <enumvalue id="IMX_F3_GPIO16" name="IMX_F3_GPIO16" value="67" />
+    <enumvalue id="IMX_F0_GPIO17" name="IMX_F0_GPIO17" value="68" />
+    <enumvalue id="IMX_F1_GPIO17" name="IMX_F1_GPIO17" value="69" />
+    <enumvalue id="IMX_F2_GPIO17" name="IMX_F2_GPIO17" value="70" />
+    <enumvalue id="IMX_F3_GPIO17" name="IMX_F3_GPIO17" value="71" />
+    <enumvalue id="IMX_F0_GPIO18" name="IMX_F0_GPIO18" value="72" />
+    <enumvalue id="IMX_F1_GPIO18" name="IMX_F1_GPIO18" value="73" />
+    <enumvalue id="IMX_F2_GPIO18" name="IMX_F2_GPIO18" value="74" />
+    <enumvalue id="IMX_F3_GPIO18" name="IMX_F3_GPIO18" value="75" />
+    <enumvalue id="IMX_F0_GPIO19" name="IMX_F0_GPIO19" value="76" />
+    <enumvalue id="IMX_F1_GPIO19" name="IMX_F1_GPIO19" value="77" />
+    <enumvalue id="IMX_F2_GPIO19" name="IMX_F2_GPIO19" value="78" />
+    <enumvalue id="IMX_F3_GPIO19" name="IMX_F3_GPIO19" value="79" />
+    <enumvalue id="IMX_F0_GPIO20" name="IMX_F0_GPIO20" value="80" />
+    <enumvalue id="IMX_F1_GPIO20" name="IMX_F1_GPIO20" value="81" />
+    <enumvalue id="IMX_F2_GPIO20" name="IMX_F2_GPIO20" value="82" />
+    <enumvalue id="IMX_F3_GPIO20" name="IMX_F3_GPIO20" value="83" />
+    <enumvalue id="IMX_F0_GPIO21" name="IMX_F0_GPIO21" value="84" />
+    <enumvalue id="IMX_F1_GPIO21" name="IMX_F1_GPIO21" value="85" />
+    <enumvalue id="IMX_F2_GPIO21" name="IMX_F2_GPIO21" value="86" />
+    <enumvalue id="IMX_F3_GPIO21" name="IMX_F3_GPIO21" value="87" />
+    <enumvalue id="IMX_F0_GPIO22" name="IMX_F0_GPIO22" value="88" />
+    <enumvalue id="IMX_F1_GPIO22" name="IMX_F1_GPIO22" value="89" />
+    <enumvalue id="IMX_F2_GPIO22" name="IMX_F2_GPIO22" value="90" />
+    <enumvalue id="IMX_F3_GPIO22" name="IMX_F3_GPIO22" value="91" />
+    <enumvalue id="IMX_F0_GPIO23" name="IMX_F0_GPIO23" value="92" />
+    <enumvalue id="IMX_F1_GPIO23" name="IMX_F1_GPIO23" value="93" />
+    <enumvalue id="IMX_F2_GPIO23" name="IMX_F2_GPIO23" value="94" />
+    <enumvalue id="IMX_F3_GPIO23" name="IMX_F3_GPIO23" value="95" />
+    <enumvalue id="IMX_F0_GPIO24" name="IMX_F0_GPIO24" value="96" />
+    <enumvalue id="IMX_F1_GPIO24" name="IMX_F1_GPIO24" value="97" />
+    <enumvalue id="IMX_F2_GPIO24" name="IMX_F2_GPIO24" value="98" />
+    <enumvalue id="IMX_F3_GPIO24" name="IMX_F3_GPIO24" value="99" />
+    <enumvalue id="IMX_F0_GPIO25" name="IMX_F0_GPIO25" value="100" />
+    <enumvalue id="IMX_F1_GPIO25" name="IMX_F1_GPIO25" value="101" />
+    <enumvalue id="IMX_F2_GPIO25" name="IMX_F2_GPIO25" value="102" />
+    <enumvalue id="IMX_F3_GPIO25" name="IMX_F3_GPIO25" value="103" />
+    <enumvalue id="IMX_F0_GPIO26" name="IMX_F0_GPIO26" value="104" />
+    <enumvalue id="IMX_F1_GPIO26" name="IMX_F1_GPIO26" value="105" />
+    <enumvalue id="IMX_F2_GPIO26" name="IMX_F2_GPIO26" value="106" />
+    <enumvalue id="IMX_F3_GPIO26" name="IMX_F3_GPIO26" value="107" />
+    <enumvalue id="IMX_F0_GPIO27" name="IMX_F0_GPIO27" value="108" />
+    <enumvalue id="IMX_F1_GPIO27" name="IMX_F1_GPIO27" value="109" />
+    <enumvalue id="IMX_F2_GPIO27" name="IMX_F2_GPIO27" value="110" />
+    <enumvalue id="IMX_F3_GPIO27" name="IMX_F3_GPIO27" value="111" />
+    <enumvalue id="IMX_F0_GPIO28" name="IMX_F0_GPIO28" value="112" />
+    <enumvalue id="IMX_F1_GPIO28" name="IMX_F1_GPIO28" value="113" />
+    <enumvalue id="IMX_F2_GPIO28" name="IMX_F2_GPIO28" value="114" />
+    <enumvalue id="IMX_F3_GPIO28" name="IMX_F3_GPIO28" value="115" />
+    <enumvalue id="IMX_F0_GPIO29" name="IMX_F0_GPIO29" value="116" />
+    <enumvalue id="IMX_F1_GPIO29" name="IMX_F1_GPIO29" value="117" />
+    <enumvalue id="IMX_F2_GPIO29" name="IMX_F2_GPIO29" value="118" />
+    <enumvalue id="IMX_F3_GPIO29" name="IMX_F3_GPIO29" value="119" />
+    <enumvalue id="IMX_F0_GPIO30" name="IMX_F0_GPIO30" value="120" />
+    <enumvalue id="IMX_F1_GPIO30" name="IMX_F1_GPIO30" value="121" />
+    <enumvalue id="IMX_F2_GPIO30" name="IMX_F2_GPIO30" value="122" />
+    <enumvalue id="IMX_F3_GPIO30" name="IMX_F3_GPIO30" value="123" />
+    <enumvalue id="IMX_F0_GPIO31" name="IMX_F0_GPIO31" value="124" />
+    <enumvalue id="IMX_F1_GPIO31" name="IMX_F1_GPIO31" value="125" />
+    <enumvalue id="IMX_F2_GPIO31" name="IMX_F2_GPIO31" value="126" />
+    <enumvalue id="IMX_F3_GPIO31" name="IMX_F3_GPIO31" value="127" />
+    <enumvalue id="IMX_F0_GPIO32" name="IMX_F0_GPIO32" value="128" />
+    <enumvalue id="IMX_F1_GPIO32" name="IMX_F1_GPIO32" value="129" />
+    <enumvalue id="IMX_F2_GPIO32" name="IMX_F2_GPIO32" value="130" />
+    <enumvalue id="IMX_F3_GPIO32" name="IMX_F3_GPIO32" value="131" />
+    <enumvalue id="IMX_F0_GPIO33" name="IMX_F0_GPIO33" value="132" />
+    <enumvalue id="IMX_F1_GPIO33" name="IMX_F1_GPIO33" value="133" />
+    <enumvalue id="IMX_F2_GPIO33" name="IMX_F2_GPIO33" value="134" />
+    <enumvalue id="IMX_F3_GPIO33" name="IMX_F3_GPIO33" value="135" />
+    <enumvalue id="IMX_F0_GPIO34" name="IMX_F0_GPIO34" value="136" />
+    <enumvalue id="IMX_F1_GPIO34" name="IMX_F1_GPIO34" value="137" />
+    <enumvalue id="IMX_F2_GPIO34" name="IMX_F2_GPIO34" value="138" />
+    <enumvalue id="IMX_F3_GPIO34" name="IMX_F3_GPIO34" value="139" />
+    <enumvalue id="IMX_F0_GPIO35" name="IMX_F0_GPIO35" value="140" />
+    <enumvalue id="IMX_F1_GPIO35" name="IMX_F1_GPIO35" value="141" />
+    <enumvalue id="IMX_F2_GPIO35" name="IMX_F2_GPIO35" value="142" />
+    <enumvalue id="IMX_F3_GPIO35" name="IMX_F3_GPIO35" value="143" />
+    <enumvalue id="IMX_F0_GPIO36" name="IMX_F0_GPIO36" value="144" />
+    <enumvalue id="IMX_F1_GPIO36" name="IMX_F1_GPIO36" value="145" />
+    <enumvalue id="IMX_F2_GPIO36" name="IMX_F2_GPIO36" value="146" />
+    <enumvalue id="IMX_F3_GPIO36" name="IMX_F3_GPIO36" value="147" />
+    <enumvalue id="IMX_F0_GPIO37" name="IMX_F0_GPIO37" value="148" />
+    <enumvalue id="IMX_F1_GPIO37" name="IMX_F1_GPIO37" value="149" />
+    <enumvalue id="IMX_F2_GPIO37" name="IMX_F2_GPIO37" value="150" />
+    <enumvalue id="IMX_F3_GPIO37" name="IMX_F3_GPIO37" value="151" />
+    <enumvalue id="IMX_F0_GPIO38" name="IMX_F0_GPIO38" value="152" />
+    <enumvalue id="IMX_F1_GPIO38" name="IMX_F1_GPIO38" value="153" />
+    <enumvalue id="IMX_F2_GPIO38" name="IMX_F2_GPIO38" value="154" />
+    <enumvalue id="IMX_F3_GPIO38" name="IMX_F3_GPIO38" value="155" />
+    <enumvalue id="IMX_F0_GPIO39" name="IMX_F0_GPIO39" value="156" />
+    <enumvalue id="IMX_F1_GPIO39" name="IMX_F1_GPIO39" value="157" />
+    <enumvalue id="IMX_F2_GPIO39" name="IMX_F2_GPIO39" value="158" />
+    <enumvalue id="IMX_F3_GPIO39" name="IMX_F3_GPIO39" value="159" />
+    <enumvalue id="IMX_F0_GPIO40" name="IMX_F0_GPIO40" value="160" />
+    <enumvalue id="IMX_F1_GPIO40" name="IMX_F1_GPIO40" value="161" />
+    <enumvalue id="IMX_F2_GPIO40" name="IMX_F2_GPIO40" value="162" />
+    <enumvalue id="IMX_F3_GPIO40" name="IMX_F3_GPIO40" value="163" />
+    <enumvalue id="IMX_F0_GPIO41" name="IMX_F0_GPIO41" value="164" />
+    <enumvalue id="IMX_F1_GPIO41" name="IMX_F1_GPIO41" value="165" />
+    <enumvalue id="IMX_F2_GPIO41" name="IMX_F2_GPIO41" value="166" />
+    <enumvalue id="IMX_F3_GPIO41" name="IMX_F3_GPIO41" value="167" />
+    <enumvalue id="IMX_F0_GPIO42" name="IMX_F0_GPIO42" value="168" />
+    <enumvalue id="IMX_F1_GPIO42" name="IMX_F1_GPIO42" value="169" />
+    <enumvalue id="IMX_F2_GPIO42" name="IMX_F2_GPIO42" value="170" />
+    <enumvalue id="IMX_F3_GPIO42" name="IMX_F3_GPIO42" value="171" />
+    <enumvalue id="IMX_F0_GPIO43" name="IMX_F0_GPIO43" value="172" />
+    <enumvalue id="IMX_F1_GPIO43" name="IMX_F1_GPIO43" value="173" />
+    <enumvalue id="IMX_F2_GPIO43" name="IMX_F2_GPIO43" value="174" />
+    <enumvalue id="IMX_F3_GPIO43" name="IMX_F3_GPIO43" value="175" />
+    <enumvalue id="IMX_F0_GPIO44" name="IMX_F0_GPIO44" value="176" />
+    <enumvalue id="IMX_F1_GPIO44" name="IMX_F1_GPIO44" value="177" />
+    <enumvalue id="IMX_F2_GPIO44" name="IMX_F2_GPIO44" value="178" />
+    <enumvalue id="IMX_F3_GPIO44" name="IMX_F3_GPIO44" value="179" />
+    <enumvalue id="IMX_F0_GPIO45" name="IMX_F0_GPIO45" value="180" />
+    <enumvalue id="IMX_F1_GPIO45" name="IMX_F1_GPIO45" value="181" />
+    <enumvalue id="IMX_F2_GPIO45" name="IMX_F2_GPIO45" value="182" />
+    <enumvalue id="IMX_F3_GPIO45" name="IMX_F3_GPIO45" value="183" />
+    <enumvalue id="IMX_F0_GPIO46" name="IMX_F0_GPIO46" value="184" />
+    <enumvalue id="IMX_F1_GPIO46" name="IMX_F1_GPIO46" value="185" />
+    <enumvalue id="IMX_F2_GPIO46" name="IMX_F2_GPIO46" value="186" />
+    <enumvalue id="IMX_F3_GPIO46" name="IMX_F3_GPIO46" value="187" />
+    <enumvalue id="IMX_F0_GPIO47" name="IMX_F0_GPIO47" value="188" />
+    <enumvalue id="IMX_F1_GPIO47" name="IMX_F1_GPIO47" value="189" />
+    <enumvalue id="IMX_F2_GPIO47" name="IMX_F2_GPIO47" value="190" />
+    <enumvalue id="IMX_F3_GPIO47" name="IMX_F3_GPIO47" value="191" />
+    <enumvalue id="IMX_F0_GPIO48" name="IMX_F0_GPIO48" value="192" />
+    <enumvalue id="IMX_F1_GPIO48" name="IMX_F1_GPIO48" value="193" />
+    <enumvalue id="IMX_F2_GPIO48" name="IMX_F2_GPIO48" value="194" />
+    <enumvalue id="IMX_F3_GPIO48" name="IMX_F3_GPIO48" value="195" />
+    <enumvalue id="IMX_F0_GPIO49" name="IMX_F0_GPIO49" value="196" />
+    <enumvalue id="IMX_F1_GPIO49" name="IMX_F1_GPIO49" value="197" />
+    <enumvalue id="IMX_F2_GPIO49" name="IMX_F2_GPIO49" value="198" />
+    <enumvalue id="IMX_F3_GPIO49" name="IMX_F3_GPIO49" value="199" />
+    <enumvalue id="IMX_F0_GPIO50" name="IMX_F0_GPIO50" value="200" />
+    <enumvalue id="IMX_F1_GPIO50" name="IMX_F1_GPIO50" value="201" />
+    <enumvalue id="IMX_F2_GPIO50" name="IMX_F2_GPIO50" value="202" />
+    <enumvalue id="IMX_F3_GPIO50" name="IMX_F3_GPIO50" value="203" />
+    <enumvalue id="IMX_F0_GPIO51" name="IMX_F0_GPIO51" value="204" />
+    <enumvalue id="IMX_F1_GPIO51" name="IMX_F1_GPIO51" value="205" />
+    <enumvalue id="IMX_F2_GPIO51" name="IMX_F2_GPIO51" value="206" />
+    <enumvalue id="IMX_F3_GPIO51" name="IMX_F3_GPIO51" value="207" />
+    <enumvalue id="IMX_F0_GPIO52" name="IMX_F0_GPIO52" value="208" />
+    <enumvalue id="IMX_F1_GPIO52" name="IMX_F1_GPIO52" value="209" />
+    <enumvalue id="IMX_F2_GPIO52" name="IMX_F2_GPIO52" value="210" />
+    <enumvalue id="IMX_F3_GPIO52" name="IMX_F3_GPIO52" value="211" />
+    <enumvalue id="IMX_F0_GPIO53" name="IMX_F0_GPIO53" value="212" />
+    <enumvalue id="IMX_F1_GPIO53" name="IMX_F1_GPIO53" value="213" />
+    <enumvalue id="IMX_F2_GPIO53" name="IMX_F2_GPIO53" value="214" />
+    <enumvalue id="IMX_F3_GPIO53" name="IMX_F3_GPIO53" value="215" />
+    <enumvalue id="IMX_F0_GPIO54" name="IMX_F0_GPIO54" value="216" />
+    <enumvalue id="IMX_F1_GPIO54" name="IMX_F1_GPIO54" value="217" />
+    <enumvalue id="IMX_F2_GPIO54" name="IMX_F2_GPIO54" value="218" />
+    <enumvalue id="IMX_F3_GPIO54" name="IMX_F3_GPIO54" value="219" />
+    <enumvalue id="IMX_F0_GPIO55" name="IMX_F0_GPIO55" value="220" />
+    <enumvalue id="IMX_F1_GPIO55" name="IMX_F1_GPIO55" value="221" />
+    <enumvalue id="IMX_F2_GPIO55" name="IMX_F2_GPIO55" value="222" />
+    <enumvalue id="IMX_F3_GPIO55" name="IMX_F3_GPIO55" value="223" />
+    <enumvalue id="IMX_F0_GPIO56" name="IMX_F0_GPIO56" value="224" />
+    <enumvalue id="IMX_F1_GPIO56" name="IMX_F1_GPIO56" value="225" />
+    <enumvalue id="IMX_F2_GPIO56" name="IMX_F2_GPIO56" value="226" />
+    <enumvalue id="IMX_F3_GPIO56" name="IMX_F3_GPIO56" value="227" />
+    <enumvalue id="IMX_F0_GPIO57" name="IMX_F0_GPIO57" value="228" />
+    <enumvalue id="IMX_F1_GPIO57" name="IMX_F1_GPIO57" value="229" />
+    <enumvalue id="IMX_F2_GPIO57" name="IMX_F2_GPIO57" value="230" />
+    <enumvalue id="IMX_F3_GPIO57" name="IMX_F3_GPIO57" value="231" />
+    <enumvalue id="IMX_F0_GPIO58" name="IMX_F0_GPIO58" value="232" />
+    <enumvalue id="IMX_F1_GPIO58" name="IMX_F1_GPIO58" value="233" />
+    <enumvalue id="IMX_F2_GPIO58" name="IMX_F2_GPIO58" value="234" />
+    <enumvalue id="IMX_F3_GPIO58" name="IMX_F3_GPIO58" value="235" />
+    <enumvalue id="IMX_F0_GPIO59" name="IMX_F0_GPIO59" value="236" />
+    <enumvalue id="IMX_F1_GPIO59" name="IMX_F1_GPIO59" value="237" />
+    <enumvalue id="IMX_F2_GPIO59" name="IMX_F2_GPIO59" value="238" />
+    <enumvalue id="IMX_F3_GPIO59" name="IMX_F3_GPIO59" value="239" />
+    <enumvalue id="IMX_F0_GPIO60" name="IMX_F0_GPIO60" value="240" />
+    <enumvalue id="IMX_F1_GPIO60" name="IMX_F1_GPIO60" value="241" />
+    <enumvalue id="IMX_F2_GPIO60" name="IMX_F2_GPIO60" value="242" />
+    <enumvalue id="IMX_F3_GPIO60" name="IMX_F3_GPIO60" value="243" />
+    <enumvalue id="IMX_F0_GPIO61" name="IMX_F0_GPIO61" value="244" />
+    <enumvalue id="IMX_F1_GPIO61" name="IMX_F1_GPIO61" value="245" />
+    <enumvalue id="IMX_F2_GPIO61" name="IMX_F2_GPIO61" value="246" />
+    <enumvalue id="IMX_F3_GPIO61" name="IMX_F3_GPIO61" value="247" />
+    <enumvalue id="IMX_F0_GPIO62" name="IMX_F0_GPIO62" value="248" />
+    <enumvalue id="IMX_F1_GPIO62" name="IMX_F1_GPIO62" value="249" />
+    <enumvalue id="IMX_F2_GPIO62" name="IMX_F2_GPIO62" value="250" />
+    <enumvalue id="IMX_F3_GPIO62" name="IMX_F3_GPIO62" value="251" />
+    <enumvalue id="IMX_F0_GPIO64" name="IMX_F0_GPIO64" value="252" />
+    <enumvalue id="IMX_F1_GPIO64" name="IMX_F1_GPIO64" value="253" />
+    <enumvalue id="IMX_F2_GPIO64" name="IMX_F2_GPIO64" value="254" />
+    <enumvalue id="IMX_F3_GPIO64" name="IMX_F3_GPIO64" value="255" />
+    <enumvalue id="IMX_F0_GPIO65" name="IMX_F0_GPIO65" value="256" />
+    <enumvalue id="IMX_F1_GPIO65" name="IMX_F1_GPIO65" value="257" />
+    <enumvalue id="IMX_F2_GPIO65" name="IMX_F2_GPIO65" value="258" />
+    <enumvalue id="IMX_F3_GPIO65" name="IMX_F3_GPIO65" value="259" />
+    <enumvalue id="IMX_F0_GPIO66" name="IMX_F0_GPIO66" value="260" />
+    <enumvalue id="IMX_F1_GPIO66" name="IMX_F1_GPIO66" value="261" />
+    <enumvalue id="IMX_F2_GPIO66" name="IMX_F2_GPIO66" value="262" />
+    <enumvalue id="IMX_F3_GPIO66" name="IMX_F3_GPIO66" value="263" />
+    <enumvalue id="IMX_F0_GPIO67" name="IMX_F0_GPIO67" value="264" />
+    <enumvalue id="IMX_F1_GPIO67" name="IMX_F1_GPIO67" value="265" />
+    <enumvalue id="IMX_F2_GPIO67" name="IMX_F2_GPIO67" value="266" />
+    <enumvalue id="IMX_F3_GPIO67" name="IMX_F3_GPIO67" value="267" />
+    <enumvalue id="IMX_F0_GPIO68" name="IMX_F0_GPIO68" value="268" />
+    <enumvalue id="IMX_F1_GPIO68" name="IMX_F1_GPIO68" value="269" />
+    <enumvalue id="IMX_F2_GPIO68" name="IMX_F2_GPIO68" value="270" />
+    <enumvalue id="IMX_F3_GPIO68" name="IMX_F3_GPIO68" value="271" />
+    <enumvalue id="IMX_F0_GPIO69" name="IMX_F0_GPIO69" value="272" />
+    <enumvalue id="IMX_F1_GPIO69" name="IMX_F1_GPIO69" value="273" />
+    <enumvalue id="IMX_F2_GPIO69" name="IMX_F2_GPIO69" value="274" />
+    <enumvalue id="IMX_F3_GPIO69" name="IMX_F3_GPIO69" value="275" />
+    <enumvalue id="IMX_F0_GPIO70" name="IMX_F0_GPIO70" value="276" />
+    <enumvalue id="IMX_F1_GPIO70" name="IMX_F1_GPIO70" value="277" />
+    <enumvalue id="IMX_F2_GPIO70" name="IMX_F2_GPIO70" value="278" />
+    <enumvalue id="IMX_F3_GPIO70" name="IMX_F3_GPIO70" value="279" />
+    <enumvalue id="IMX_F0_GPIO71" name="IMX_F0_GPIO71" value="280" />
+    <enumvalue id="IMX_F1_GPIO71" name="IMX_F1_GPIO71" value="281" />
+    <enumvalue id="IMX_F2_GPIO71" name="IMX_F2_GPIO71" value="282" />
+    <enumvalue id="IMX_F3_GPIO71" name="IMX_F3_GPIO71" value="283" />
+    <enumvalue id="IMX_F0_GPIO72" name="IMX_F0_GPIO72" value="284" />
+    <enumvalue id="IMX_F1_GPIO72" name="IMX_F1_GPIO72" value="285" />
+    <enumvalue id="IMX_F2_GPIO72" name="IMX_F2_GPIO72" value="286" />
+    <enumvalue id="IMX_F3_GPIO72" name="IMX_F3_GPIO72" value="287" />
+    <enumvalue id="IMX_F0_GPIO73" name="IMX_F0_GPIO73" value="288" />
+    <enumvalue id="IMX_F1_GPIO73" name="IMX_F1_GPIO73" value="289" />
+    <enumvalue id="IMX_F2_GPIO73" name="IMX_F2_GPIO73" value="290" />
+    <enumvalue id="IMX_F3_GPIO73" name="IMX_F3_GPIO73" value="291" />
+    <enumvalue id="IMX_F0_GPIO74" name="IMX_F0_GPIO74" value="292" />
+    <enumvalue id="IMX_F1_GPIO74" name="IMX_F1_GPIO74" value="293" />
+    <enumvalue id="IMX_F2_GPIO74" name="IMX_F2_GPIO74" value="294" />
+    <enumvalue id="IMX_F3_GPIO74" name="IMX_F3_GPIO74" value="295" />
+    <enumvalue id="IMX_F0_GPIO75" name="IMX_F0_GPIO75" value="296" />
+    <enumvalue id="IMX_F1_GPIO75" name="IMX_F1_GPIO75" value="297" />
+    <enumvalue id="IMX_F2_GPIO75" name="IMX_F2_GPIO75" value="298" />
+    <enumvalue id="IMX_F3_GPIO75" name="IMX_F3_GPIO75" value="299" />
+    <enumvalue id="IMX_F0_GPIO76" name="IMX_F0_GPIO76" value="300" />
+    <enumvalue id="IMX_F1_GPIO76" name="IMX_F1_GPIO76" value="301" />
+    <enumvalue id="IMX_F2_GPIO76" name="IMX_F2_GPIO76" value="302" />
+    <enumvalue id="IMX_F3_GPIO76" name="IMX_F3_GPIO76" value="303" />
+    <enumvalue id="IMX_F0_GPIO77" name="IMX_F0_GPIO77" value="304" />
+    <enumvalue id="IMX_F1_GPIO77" name="IMX_F1_GPIO77" value="305" />
+    <enumvalue id="IMX_F2_GPIO77" name="IMX_F2_GPIO77" value="306" />
+    <enumvalue id="IMX_F3_GPIO77" name="IMX_F3_GPIO77" value="307" />
+    <enumvalue id="IMX_F0_GPIO78" name="IMX_F0_GPIO78" value="308" />
+    <enumvalue id="IMX_F1_GPIO78" name="IMX_F1_GPIO78" value="309" />
+    <enumvalue id="IMX_F2_GPIO78" name="IMX_F2_GPIO78" value="310" />
+    <enumvalue id="IMX_F3_GPIO78" name="IMX_F3_GPIO78" value="311" />
+    <enumvalue id="IMX_F0_GPIO79" name="IMX_F0_GPIO79" value="312" />
+    <enumvalue id="IMX_F1_GPIO79" name="IMX_F1_GPIO79" value="313" />
+    <enumvalue id="IMX_F2_GPIO79" name="IMX_F2_GPIO79" value="314" />
+    <enumvalue id="IMX_F3_GPIO79" name="IMX_F3_GPIO79" value="315" />
+    <enumvalue id="IMX_F0_GPIO80" name="IMX_F0_GPIO80" value="316" />
+    <enumvalue id="IMX_F1_GPIO80" name="IMX_F1_GPIO80" value="317" />
+    <enumvalue id="IMX_F2_GPIO80" name="IMX_F2_GPIO80" value="318" />
+    <enumvalue id="IMX_F3_GPIO80" name="IMX_F3_GPIO80" value="319" />
+    <enumvalue id="IMX_F0_GPIO81" name="IMX_F0_GPIO81" value="320" />
+    <enumvalue id="IMX_F1_GPIO81" name="IMX_F1_GPIO81" value="321" />
+    <enumvalue id="IMX_F2_GPIO81" name="IMX_F2_GPIO81" value="322" />
+    <enumvalue id="IMX_F3_GPIO81" name="IMX_F3_GPIO81" value="323" />
+    <enumvalue id="IMX_F0_GPIO82" name="IMX_F0_GPIO82" value="324" />
+    <enumvalue id="IMX_F1_GPIO82" name="IMX_F1_GPIO82" value="325" />
+    <enumvalue id="IMX_F2_GPIO82" name="IMX_F2_GPIO82" value="326" />
+    <enumvalue id="IMX_F3_GPIO82" name="IMX_F3_GPIO82" value="327" />
+    <enumvalue id="IMX_F0_GPIO83" name="IMX_F0_GPIO83" value="328" />
+    <enumvalue id="IMX_F1_GPIO83" name="IMX_F1_GPIO83" value="329" />
+    <enumvalue id="IMX_F2_GPIO83" name="IMX_F2_GPIO83" value="330" />
+    <enumvalue id="IMX_F3_GPIO83" name="IMX_F3_GPIO83" value="331" />
+    <enumvalue id="IMX_F0_GPIO84" name="IMX_F0_GPIO84" value="332" />
+    <enumvalue id="IMX_F1_GPIO84" name="IMX_F1_GPIO84" value="333" />
+    <enumvalue id="IMX_F2_GPIO84" name="IMX_F2_GPIO84" value="334" />
+    <enumvalue id="IMX_F3_GPIO84" name="IMX_F3_GPIO84" value="335" />
+    <enumvalue id="IMX_F0_GPIO85" name="IMX_F0_GPIO85" value="336" />
+    <enumvalue id="IMX_F1_GPIO85" name="IMX_F1_GPIO85" value="337" />
+    <enumvalue id="IMX_F2_GPIO85" name="IMX_F2_GPIO85" value="338" />
+    <enumvalue id="IMX_F3_GPIO85" name="IMX_F3_GPIO85" value="339" />
+    <enumvalue id="IMX_F0_GPIO86" name="IMX_F0_GPIO86" value="340" />
+    <enumvalue id="IMX_F1_GPIO86" name="IMX_F1_GPIO86" value="341" />
+    <enumvalue id="IMX_F2_GPIO86" name="IMX_F2_GPIO86" value="342" />
+    <enumvalue id="IMX_F3_GPIO86" name="IMX_F3_GPIO86" value="343" />
+    <enumvalue id="IMX_F0_GPIO87" name="IMX_F0_GPIO87" value="344" />
+    <enumvalue id="IMX_F1_GPIO87" name="IMX_F1_GPIO87" value="345" />
+    <enumvalue id="IMX_F2_GPIO87" name="IMX_F2_GPIO87" value="346" />
+    <enumvalue id="IMX_F3_GPIO87" name="IMX_F3_GPIO87" value="347" />
+    <enumvalue id="IMX_F0_GPIO88" name="IMX_F0_GPIO88" value="348" />
+    <enumvalue id="IMX_F1_GPIO88" name="IMX_F1_GPIO88" value="349" />
+    <enumvalue id="IMX_F2_GPIO88" name="IMX_F2_GPIO88" value="350" />
+    <enumvalue id="IMX_F3_GPIO88" name="IMX_F3_GPIO88" value="351" />
+    <enumvalue id="IMX_F0_GPIO89" name="IMX_F0_GPIO89" value="352" />
+    <enumvalue id="IMX_F1_GPIO89" name="IMX_F1_GPIO89" value="353" />
+    <enumvalue id="IMX_F2_GPIO89" name="IMX_F2_GPIO89" value="354" />
+    <enumvalue id="IMX_F3_GPIO89" name="IMX_F3_GPIO89" value="355" />
+    <enumvalue id="IMX_F0_GPIO90" name="IMX_F0_GPIO90" value="356" />
+    <enumvalue id="IMX_F1_GPIO90" name="IMX_F1_GPIO90" value="357" />
+    <enumvalue id="IMX_F2_GPIO90" name="IMX_F2_GPIO90" value="358" />
+    <enumvalue id="IMX_F3_GPIO90" name="IMX_F3_GPIO90" value="359" />
+    <enumvalue id="IMX_F0_GPIO91" name="IMX_F0_GPIO91" value="360" />
+    <enumvalue id="IMX_F1_GPIO91" name="IMX_F1_GPIO91" value="361" />
+    <enumvalue id="IMX_F2_GPIO91" name="IMX_F2_GPIO91" value="362" />
+    <enumvalue id="IMX_F3_GPIO91" name="IMX_F3_GPIO91" value="363" />
+    <enumvalue id="IMX_F0_GPIO92" name="IMX_F0_GPIO92" value="364" />
+    <enumvalue id="IMX_F1_GPIO92" name="IMX_F1_GPIO92" value="365" />
+    <enumvalue id="IMX_F2_GPIO92" name="IMX_F2_GPIO92" value="366" />
+    <enumvalue id="IMX_F3_GPIO92" name="IMX_F3_GPIO92" value="367" />
+    <enumvalue id="IMX_F0_GPIO93" name="IMX_F0_GPIO93" value="368" />
+    <enumvalue id="IMX_F1_GPIO93" name="IMX_F1_GPIO93" value="369" />
+    <enumvalue id="IMX_F2_GPIO93" name="IMX_F2_GPIO93" value="370" />
+    <enumvalue id="IMX_F3_GPIO93" name="IMX_F3_GPIO93" value="371" />
+    <enumvalue id="IMX_F0_GPIO94" name="IMX_F0_GPIO94" value="372" />
+    <enumvalue id="IMX_F1_GPIO94" name="IMX_F1_GPIO94" value="373" />
+    <enumvalue id="IMX_F2_GPIO94" name="IMX_F2_GPIO94" value="374" />
+    <enumvalue id="IMX_F3_GPIO94" name="IMX_F3_GPIO94" value="375" />
+    <enumvalue id="IMX_F0_GPIO95" name="IMX_F0_GPIO95" value="376" />
+    <enumvalue id="IMX_F1_GPIO95" name="IMX_F1_GPIO95" value="377" />
+    <enumvalue id="IMX_F2_GPIO95" name="IMX_F2_GPIO95" value="378" />
+    <enumvalue id="IMX_F3_GPIO95" name="IMX_F3_GPIO95" value="379" />
+    <enumvalue id="IMX_F0_GPIO96" name="IMX_F0_GPIO96" value="380" />
+    <enumvalue id="IMX_F1_GPIO96" name="IMX_F1_GPIO96" value="381" />
+    <enumvalue id="IMX_F2_GPIO96" name="IMX_F2_GPIO96" value="382" />
+    <enumvalue id="IMX_F3_GPIO96" name="IMX_F3_GPIO96" value="383" />
+    <enumvalue id="IMX_F0_GPIO97" name="IMX_F0_GPIO97" value="384" />
+    <enumvalue id="IMX_F1_GPIO97" name="IMX_F1_GPIO97" value="385" />
+    <enumvalue id="IMX_F2_GPIO97" name="IMX_F2_GPIO97" value="386" />
+    <enumvalue id="IMX_F3_GPIO97" name="IMX_F3_GPIO97" value="387" />
+    <enumvalue id="IMX_F0_GPIO98" name="IMX_F0_GPIO98" value="388" />
+    <enumvalue id="IMX_F1_GPIO98" name="IMX_F1_GPIO98" value="389" />
+    <enumvalue id="IMX_F2_GPIO98" name="IMX_F2_GPIO98" value="390" />
+    <enumvalue id="IMX_F3_GPIO98" name="IMX_F3_GPIO98" value="391" />
+    <enumvalue id="IMX_F0_GPIO99" name="IMX_F0_GPIO99" value="392" />
+    <enumvalue id="IMX_F1_GPIO99" name="IMX_F1_GPIO99" value="393" />
+    <enumvalue id="IMX_F2_GPIO99" name="IMX_F2_GPIO99" value="394" />
+    <enumvalue id="IMX_F3_GPIO99" name="IMX_F3_GPIO99" value="395" />
+    <enumvalue id="IMX_F0_GPIO100" name="IMX_F0_GPIO100" value="396" />
+    <enumvalue id="IMX_F1_GPIO100" name="IMX_F1_GPIO100" value="397" />
+    <enumvalue id="IMX_F2_GPIO100" name="IMX_F2_GPIO100" value="398" />
+    <enumvalue id="IMX_F3_GPIO100" name="IMX_F3_GPIO100" value="399" />
+    <enumvalue id="IMX_F0_GPIO101" name="IMX_F0_GPIO101" value="400" />
+    <enumvalue id="IMX_F1_GPIO101" name="IMX_F1_GPIO101" value="401" />
+    <enumvalue id="IMX_F2_GPIO101" name="IMX_F2_GPIO101" value="402" />
+    <enumvalue id="IMX_F3_GPIO101" name="IMX_F3_GPIO101" value="403" />
+    <enumvalue id="IMX_F0_GPIO102" name="IMX_F0_GPIO102" value="404" />
+    <enumvalue id="IMX_F1_GPIO102" name="IMX_F1_GPIO102" value="405" />
+    <enumvalue id="IMX_F2_GPIO102" name="IMX_F2_GPIO102" value="406" />
+    <enumvalue id="IMX_F3_GPIO102" name="IMX_F3_GPIO102" value="407" />
+    <enumvalue id="IMX_F0_GPIO103" name="IMX_F0_GPIO103" value="408" />
+    <enumvalue id="IMX_F1_GPIO103" name="IMX_F1_GPIO103" value="409" />
+    <enumvalue id="IMX_F2_GPIO103" name="IMX_F2_GPIO103" value="410" />
+    <enumvalue id="IMX_F3_GPIO103" name="IMX_F3_GPIO103" value="411" />
+    <enumvalue id="IMX_F0_GPIO104" name="IMX_F0_GPIO104" value="412" />
+    <enumvalue id="IMX_F1_GPIO104" name="IMX_F1_GPIO104" value="413" />
+    <enumvalue id="IMX_F2_GPIO104" name="IMX_F2_GPIO104" value="414" />
+    <enumvalue id="IMX_F3_GPIO104" name="IMX_F3_GPIO104" value="415" />
+    <enumvalue id="IMX_F0_GPIO105" name="IMX_F0_GPIO105" value="416" />
+    <enumvalue id="IMX_F1_GPIO105" name="IMX_F1_GPIO105" value="417" />
+    <enumvalue id="IMX_F2_GPIO105" name="IMX_F2_GPIO105" value="418" />
+    <enumvalue id="IMX_F3_GPIO105" name="IMX_F3_GPIO105" value="419" />
+    <enumvalue id="IMX_F0_GPIO106" name="IMX_F0_GPIO106" value="420" />
+    <enumvalue id="IMX_F1_GPIO106" name="IMX_F1_GPIO106" value="421" />
+    <enumvalue id="IMX_F2_GPIO106" name="IMX_F2_GPIO106" value="422" />
+    <enumvalue id="IMX_F3_GPIO106" name="IMX_F3_GPIO106" value="423" />
+    <enumvalue id="IMX_F0_GPIO107" name="IMX_F0_GPIO107" value="424" />
+    <enumvalue id="IMX_F1_GPIO107" name="IMX_F1_GPIO107" value="425" />
+    <enumvalue id="IMX_F2_GPIO107" name="IMX_F2_GPIO107" value="426" />
+    <enumvalue id="IMX_F3_GPIO107" name="IMX_F3_GPIO107" value="427" />
+    <enumvalue id="IMX_F0_GPIO108" name="IMX_F0_GPIO108" value="428" />
+    <enumvalue id="IMX_F1_GPIO108" name="IMX_F1_GPIO108" value="429" />
+    <enumvalue id="IMX_F2_GPIO108" name="IMX_F2_GPIO108" value="430" />
+    <enumvalue id="IMX_F3_GPIO108" name="IMX_F3_GPIO108" value="431" />
+    <enumvalue id="IMX_F0_GPIO109" name="IMX_F0_GPIO109" value="432" />
+    <enumvalue id="IMX_F1_GPIO109" name="IMX_F1_GPIO109" value="433" />
+    <enumvalue id="IMX_F2_GPIO109" name="IMX_F2_GPIO109" value="434" />
+    <enumvalue id="IMX_F3_GPIO109" name="IMX_F3_GPIO109" value="435" />
+    <enumvalue id="IMX_F0_GPIO110" name="IMX_F0_GPIO110" value="436" />
+    <enumvalue id="IMX_F1_GPIO110" name="IMX_F1_GPIO110" value="437" />
+    <enumvalue id="IMX_F2_GPIO110" name="IMX_F2_GPIO110" value="438" />
+    <enumvalue id="IMX_F3_GPIO110" name="IMX_F3_GPIO110" value="439" />
+    <enumvalue id="IMX_F0_GPIO111" name="IMX_F0_GPIO111" value="440" />
+    <enumvalue id="IMX_F1_GPIO111" name="IMX_F1_GPIO111" value="441" />
+    <enumvalue id="IMX_F2_GPIO111" name="IMX_F2_GPIO111" value="442" />
+    <enumvalue id="IMX_F3_GPIO111" name="IMX_F3_GPIO111" value="443" />
+    <enumvalue id="IMX_F0_GPIO112" name="IMX_F0_GPIO112" value="444" />
+    <enumvalue id="IMX_F1_GPIO112" name="IMX_F1_GPIO112" value="445" />
+    <enumvalue id="IMX_F2_GPIO112" name="IMX_F2_GPIO112" value="446" />
+    <enumvalue id="IMX_F3_GPIO112" name="IMX_F3_GPIO112" value="447" />
+    <enumvalue id="IMX_F0_GPIO113" name="IMX_F0_GPIO113" value="448" />
+    <enumvalue id="IMX_F1_GPIO113" name="IMX_F1_GPIO113" value="449" />
+    <enumvalue id="IMX_F2_GPIO113" name="IMX_F2_GPIO113" value="450" />
+    <enumvalue id="IMX_F3_GPIO113" name="IMX_F3_GPIO113" value="451" />
+    <enumvalue id="IMX_F0_GPIO114" name="IMX_F0_GPIO114" value="452" />
+    <enumvalue id="IMX_F1_GPIO114" name="IMX_F1_GPIO114" value="453" />
+    <enumvalue id="IMX_F2_GPIO114" name="IMX_F2_GPIO114" value="454" />
+    <enumvalue id="IMX_F3_GPIO114" name="IMX_F3_GPIO114" value="455" />
+    <enumvalue id="IMX_F0_GPIO115" name="IMX_F0_GPIO115" value="456" />
+    <enumvalue id="IMX_F1_GPIO115" name="IMX_F1_GPIO115" value="457" />
+    <enumvalue id="IMX_F2_GPIO115" name="IMX_F2_GPIO115" value="458" />
+    <enumvalue id="IMX_F3_GPIO115" name="IMX_F3_GPIO115" value="459" />
+    <enumvalue id="IMX_F0_GPIO116" name="IMX_F0_GPIO116" value="460" />
+    <enumvalue id="IMX_F1_GPIO116" name="IMX_F1_GPIO116" value="461" />
+    <enumvalue id="IMX_F2_GPIO116" name="IMX_F2_GPIO116" value="462" />
+    <enumvalue id="IMX_F3_GPIO116" name="IMX_F3_GPIO116" value="463" />
+    <enumvalue id="IMX_F0_GPIO117" name="IMX_F0_GPIO117" value="464" />
+    <enumvalue id="IMX_F1_GPIO117" name="IMX_F1_GPIO117" value="465" />
+    <enumvalue id="IMX_F2_GPIO117" name="IMX_F2_GPIO117" value="466" />
+    <enumvalue id="IMX_F3_GPIO117" name="IMX_F3_GPIO117" value="467" />
+    <enumvalue id="IMX_F0_GPIO118" name="IMX_F0_GPIO118" value="468" />
+    <enumvalue id="IMX_F1_GPIO118" name="IMX_F1_GPIO118" value="469" />
+    <enumvalue id="IMX_F2_GPIO118" name="IMX_F2_GPIO118" value="470" />
+    <enumvalue id="IMX_F3_GPIO118" name="IMX_F3_GPIO118" value="471" />
+    <enumvalue id="IMX_F0_GPIO119" name="IMX_F0_GPIO119" value="472" />
+    <enumvalue id="IMX_F1_GPIO119" name="IMX_F1_GPIO119" value="473" />
+    <enumvalue id="IMX_F2_GPIO119" name="IMX_F2_GPIO119" value="474" />
+    <enumvalue id="IMX_F3_GPIO119" name="IMX_F3_GPIO119" value="475" />
+    <enumvalue id="IMX_F0_GPIO120" name="IMX_F0_GPIO120" value="476" />
+    <enumvalue id="IMX_F1_GPIO120" name="IMX_F1_GPIO120" value="477" />
+    <enumvalue id="IMX_F2_GPIO120" name="IMX_F2_GPIO120" value="478" />
+    <enumvalue id="IMX_F3_GPIO120" name="IMX_F3_GPIO120" value="479" />
+    <enumvalue id="IMX_F0_GPIO121" name="IMX_F0_GPIO121" value="480" />
+    <enumvalue id="IMX_F1_GPIO121" name="IMX_F1_GPIO121" value="481" />
+    <enumvalue id="IMX_F2_GPIO121" name="IMX_F2_GPIO121" value="482" />
+    <enumvalue id="IMX_F3_GPIO121" name="IMX_F3_GPIO121" value="483" />
+    <enumvalue id="IMX_F0_GPIO122" name="IMX_F0_GPIO122" value="484" />
+    <enumvalue id="IMX_F1_GPIO122" name="IMX_F1_GPIO122" value="485" />
+    <enumvalue id="IMX_F2_GPIO122" name="IMX_F2_GPIO122" value="486" />
+    <enumvalue id="IMX_F3_GPIO122" name="IMX_F3_GPIO122" value="487" />
+    <enumvalue id="IMX_F0_GPIO123" name="IMX_F0_GPIO123" value="488" />
+    <enumvalue id="IMX_F1_GPIO123" name="IMX_F1_GPIO123" value="489" />
+    <enumvalue id="IMX_F2_GPIO123" name="IMX_F2_GPIO123" value="490" />
+    <enumvalue id="IMX_F3_GPIO123" name="IMX_F3_GPIO123" value="491" />
+    <enumvalue id="IMX_F0_GPIO124" name="IMX_F0_GPIO124" value="492" />
+    <enumvalue id="IMX_F1_GPIO124" name="IMX_F1_GPIO124" value="493" />
+    <enumvalue id="IMX_F2_GPIO124" name="IMX_F2_GPIO124" value="494" />
+    <enumvalue id="IMX_F3_GPIO124" name="IMX_F3_GPIO124" value="495" />
+    <enumvalue id="IMX_F0_GPIO125" name="IMX_F0_GPIO125" value="496" />
+    <enumvalue id="IMX_F1_GPIO125" name="IMX_F1_GPIO125" value="497" />
+    <enumvalue id="IMX_F2_GPIO125" name="IMX_F2_GPIO125" value="498" />
+    <enumvalue id="IMX_F3_GPIO125" name="IMX_F3_GPIO125" value="499" />
+    <enumvalue id="IMX_F0_GPIO126" name="IMX_F0_GPIO126" value="500" />
+    <enumvalue id="IMX_F1_GPIO126" name="IMX_F1_GPIO126" value="501" />
+    <enumvalue id="IMX_F2_GPIO126" name="IMX_F2_GPIO126" value="502" />
+    <enumvalue id="IMX_F3_GPIO126" name="IMX_F3_GPIO126" value="503" />
+    <enumvalue id="IMX_F0_GPIO127" name="IMX_F0_GPIO127" value="504" />
+    <enumvalue id="IMX_F1_GPIO127" name="IMX_F1_GPIO127" value="505" />
+    <enumvalue id="IMX_F2_GPIO127" name="IMX_F2_GPIO127" value="506" />
+    <enumvalue id="IMX_F3_GPIO127" name="IMX_F3_GPIO127" value="507" />
+    <enumvalue id="IMX_F0_GPIO128" name="IMX_F0_GPIO128" value="508" />
+    <enumvalue id="IMX_F1_GPIO128" name="IMX_F1_GPIO128" value="509" />
+    <enumvalue id="IMX_F2_GPIO128" name="IMX_F2_GPIO128" value="510" />
+    <enumvalue id="IMX_F3_GPIO128" name="IMX_F3_GPIO128" value="511" />
+    <enumvalue id="IMX_F0_GPIO129" name="IMX_F0_GPIO129" value="512" />
+    <enumvalue id="IMX_F1_GPIO129" name="IMX_F1_GPIO129" value="513" />
+    <enumvalue id="IMX_F2_GPIO129" name="IMX_F2_GPIO129" value="514" />
+    <enumvalue id="IMX_F3_GPIO129" name="IMX_F3_GPIO129" value="515" />
+    <enumvalue id="IMX_F0_GPIO130" name="IMX_F0_GPIO130" value="516" />
+    <enumvalue id="IMX_F1_GPIO130" name="IMX_F1_GPIO130" value="517" />
+    <enumvalue id="IMX_F2_GPIO130" name="IMX_F2_GPIO130" value="518" />
+    <enumvalue id="IMX_F3_GPIO130" name="IMX_F3_GPIO130" value="519" />
+    <enumvalue id="IMX_F0_GPIO131" name="IMX_F0_GPIO131" value="520" />
+    <enumvalue id="IMX_F1_GPIO131" name="IMX_F1_GPIO131" value="521" />
+    <enumvalue id="IMX_F2_GPIO131" name="IMX_F2_GPIO131" value="522" />
+    <enumvalue id="IMX_F3_GPIO131" name="IMX_F3_GPIO131" value="523" />
+    <enumvalue id="IMX_F0_GPIO132" name="IMX_F0_GPIO132" value="524" />
+    <enumvalue id="IMX_F1_GPIO132" name="IMX_F1_GPIO132" value="525" />
+    <enumvalue id="IMX_F2_GPIO132" name="IMX_F2_GPIO132" value="526" />
+    <enumvalue id="IMX_F3_GPIO132" name="IMX_F3_GPIO132" value="527" />
+    <enumvalue id="IMX_F0_GPIO133" name="IMX_F0_GPIO133" value="528" />
+    <enumvalue id="IMX_F1_GPIO133" name="IMX_F1_GPIO133" value="529" />
+    <enumvalue id="IMX_F2_GPIO133" name="IMX_F2_GPIO133" value="530" />
+    <enumvalue id="IMX_F3_GPIO133" name="IMX_F3_GPIO133" value="531" />
+    <enumvalue id="IMX_F0_GPIO134" name="IMX_F0_GPIO134" value="532" />
+    <enumvalue id="IMX_F1_GPIO134" name="IMX_F1_GPIO134" value="533" />
+    <enumvalue id="IMX_F2_GPIO134" name="IMX_F2_GPIO134" value="534" />
+    <enumvalue id="IMX_F3_GPIO134" name="IMX_F3_GPIO134" value="535" />
+    <enumvalue id="IMX_F0_GPIO135" name="IMX_F0_GPIO135" value="536" />
+    <enumvalue id="IMX_F1_GPIO135" name="IMX_F1_GPIO135" value="537" />
+    <enumvalue id="IMX_F2_GPIO135" name="IMX_F2_GPIO135" value="538" />
+    <enumvalue id="IMX_F3_GPIO135" name="IMX_F3_GPIO135" value="539" />
+    <enumvalue id="IMX_F0_GPIO136" name="IMX_F0_GPIO136" value="540" />
+    <enumvalue id="IMX_F1_GPIO136" name="IMX_F1_GPIO136" value="541" />
+    <enumvalue id="IMX_F2_GPIO136" name="IMX_F2_GPIO136" value="542" />
+    <enumvalue id="IMX_F3_GPIO136" name="IMX_F3_GPIO136" value="543" />
+    <enumvalue id="IMX_F0_GPIO137" name="IMX_F0_GPIO137" value="544" />
+    <enumvalue id="IMX_F1_GPIO137" name="IMX_F1_GPIO137" value="545" />
+    <enumvalue id="IMX_F2_GPIO137" name="IMX_F2_GPIO137" value="546" />
+    <enumvalue id="IMX_F3_GPIO137" name="IMX_F3_GPIO137" value="547" />
+    <enumvalue id="IMX_F0_GPIO138" name="IMX_F0_GPIO138" value="548" />
+    <enumvalue id="IMX_F1_GPIO138" name="IMX_F1_GPIO138" value="549" />
+    <enumvalue id="IMX_F2_GPIO138" name="IMX_F2_GPIO138" value="550" />
+    <enumvalue id="IMX_F3_GPIO138" name="IMX_F3_GPIO138" value="551" />
+    <enumvalue id="IMX_F0_GPIO139" name="IMX_F0_GPIO139" value="552" />
+    <enumvalue id="IMX_F1_GPIO139" name="IMX_F1_GPIO139" value="553" />
+    <enumvalue id="IMX_F2_GPIO139" name="IMX_F2_GPIO139" value="554" />
+    <enumvalue id="IMX_F3_GPIO139" name="IMX_F3_GPIO139" value="555" />
+    <enumvalue id="IMX_F0_GPIO140" name="IMX_F0_GPIO140" value="556" />
+    <enumvalue id="IMX_F1_GPIO140" name="IMX_F1_GPIO140" value="557" />
+    <enumvalue id="IMX_F2_GPIO140" name="IMX_F2_GPIO140" value="558" />
+    <enumvalue id="IMX_F3_GPIO140" name="IMX_F3_GPIO140" value="559" />
+    <enumvalue id="IMX_F0_GPIO141" name="IMX_F0_GPIO141" value="560" />
+    <enumvalue id="IMX_F1_GPIO141" name="IMX_F1_GPIO141" value="561" />
+    <enumvalue id="IMX_F2_GPIO141" name="IMX_F2_GPIO141" value="562" />
+    <enumvalue id="IMX_F3_GPIO141" name="IMX_F3_GPIO141" value="563" />
+    <enumvalue id="IMX_F0_GPIO142" name="IMX_F0_GPIO142" value="564" />
+    <enumvalue id="IMX_F1_GPIO142" name="IMX_F1_GPIO142" value="565" />
+    <enumvalue id="IMX_F2_GPIO142" name="IMX_F2_GPIO142" value="566" />
+    <enumvalue id="IMX_F3_GPIO142" name="IMX_F3_GPIO142" value="567" />
+    <enumvalue id="IMX_F0_GPIO143" name="IMX_F0_GPIO143" value="568" />
+    <enumvalue id="IMX_F1_GPIO143" name="IMX_F1_GPIO143" value="569" />
+    <enumvalue id="IMX_F2_GPIO143" name="IMX_F2_GPIO143" value="570" />
+    <enumvalue id="IMX_F3_GPIO143" name="IMX_F3_GPIO143" value="571" />
+    <enumvalue id="IMX_F0_GPIO144" name="IMX_F0_GPIO144" value="572" />
+    <enumvalue id="IMX_F1_GPIO144" name="IMX_F1_GPIO144" value="573" />
+    <enumvalue id="IMX_F2_GPIO144" name="IMX_F2_GPIO144" value="574" />
+    <enumvalue id="IMX_F3_GPIO144" name="IMX_F3_GPIO144" value="575" />
+  </enum>
+  <enum id="DigitiserTransducerType" name="DigitiserTransducerType" anonymous="yes">
+    <enumvalue id="kDigitiserTransducerFinger" name="kDigitiserTransducerFinger" value="0" />
+    <enumvalue id="kDigitiserTransducerStylus" name="kDigitiserTransducerStylus" value="1" />
+    <enumvalue id="kDigitiserTransducerPuck" name="kDigitiserTransducerPuck" value="2" />
+  </enum>
+  <enum id="rmi_mode_type" name="rmi_mode_type" anonymous="yes">
+    <enumvalue id="RMI_MODE_OFF" name="RMI_MODE_OFF" value="0" />
+    <enumvalue id="RMI_MODE_ATTN_REPORTS" name="RMI_MODE_ATTN_REPORTS" value="1" />
+    <enumvalue id="RMI_MODE_NO_PACKED_ATTN_REPORTS" name="RMI_MODE_NO_PACKED_ATTN_REPORTS" value="2" />
+  </enum>
+  <enum id="VoodooI2CState" name="VoodooI2CState" anonymous="yes">
+    <enumvalue id="kVoodooI2CStateOff" name="kVoodooI2CStateOff" value="0" />
+    <enumvalue id="kVoodooI2CStateOn" name="kVoodooI2CStateOn" value="1" />
+  </enum>
+  <union id="VoodooI2CHIDDeviceCommand" name="VoodooI2CHIDDeviceCommand">
+    <struct ref="VoodooI2CHIDDeviceCommand::cmd#VoodooI2CHIDDeviceCommand::cmd" name="cmd" />
+    <field id="VoodooI2CHIDDeviceCommand::data" name="data">
+      <type size="4" class="array">
+        <type name="UInt8" />
+      </type>
+    </field>
+    <field id="VoodooI2CHIDDeviceCommand::c" name="c">
+      <type name="cmd" ref="VoodooI2CHIDDeviceCommand::cmd#VoodooI2CHIDDeviceCommand::cmd" />
+    </field>
+  </union>
+  <typedef id="DigitiserTransducerButtonState" name="DigitiserTransducerButtonState">
+    <type name="TimeTrackedValue" ref="TimeTrackedValue#TimeTrackedValue" />
+  </typedef>
+  <typedef id="DigitiserTransducerType" name="DigitiserTransducerType">
+    <type name="DigitiserTransducerType" ref="index#DigitiserTransducerType" />
+  </typedef>
+  <typedef id="MultitouchReturn" name="MultitouchReturn">
+    <type name="UInt32" />
+  </typedef>
+  <typedef id="VoodooI2CHIDDeviceCommand" name="VoodooI2CHIDDeviceCommand">
+    <type name="VoodooI2CHIDDeviceCommand" ref="index#VoodooI2CHIDDeviceCommand" />
+  </typedef>
+  <function id="abs" name="abs">
+    <return>
+      <type name="UInt16" />
+    </return>
+    <argument name="x" id="abs::x">
+      <type name="SInt16" />
+    </argument>
+  </function>
+  <function id="getMatchedName" name="getMatchedName">
+    <return>
+      <type name="char" qualifier=" const *" builtin="yes" />
+    </return>
+    <argument name="provider" id="getMatchedName::provider">
+      <type name="IOService" qualifier="*" />
+    </argument>
+  </function>
+  <function id="readl" name="readl">
+    <return>
+      <type name="UInt32" />
+    </return>
+    <argument name="addr" id="readl::addr">
+      <type name="IOVirtualAddress" />
+    </argument>
+  </function>
+  <function id="setOSDictionaryNumber" name="setOSDictionaryNumber">
+    <return>
+      <type name="void" builtin="yes" />
+    </return>
+    <argument name="dictionary" id="setOSDictionaryNumber::dictionary">
+      <type name="OSDictionary" qualifier="*" />
+    </argument>
+    <argument name="key" id="setOSDictionaryNumber::key">
+      <type name="char" qualifier=" const *" builtin="yes" />
+    </argument>
+    <argument name="number" id="setOSDictionaryNumber::number">
+      <type name="UInt32" />
+    </argument>
+  </function>
+  <function id="writel" name="writel">
+    <return>
+      <type name="void" builtin="yes" />
+    </return>
+    <argument name="b" id="writel::b">
+      <type name="UInt32" />
+    </argument>
+    <argument name="addr" id="writel::addr">
+      <type name="IOVirtualAddress" />
+    </argument>
+  </function>
+  <report name="Documentation generator" ref="report" />
+</index>

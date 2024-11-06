@@ -1,0 +1,291 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<class id="VoodooI2CHIDDevice" name="VoodooI2CHIDDevice" interface="true" xmlns="http://jessevdk.github.com/cldoc/1.0">
+  <brief> Implements an I2C-HID device as specified by Microsoft's protocol in the following document: http://download.microsoft.com/download/7/D/D/7DD44BB7-2A7A-4505-AC1C-7227D3D96D5B/hid-over-i2c-protocol-spec-v1-0.docx</brief>
+  <doc>The members of this class are responsible for issuing I2C-HID commands via the device API as well as interacting with OS X's HID stack.
+</doc>
+  <base access="public">
+    <type name="IOHIDDevice" />
+  </base>
+  <subclass access="public" ref="VoodooI2CHIDDeviceOverride#VoodooI2CHIDDeviceOverride" name="VoodooI2CHIDDeviceOverride" />
+  <variable id="VoodooI2CHIDDevice::gMetaClass" name="gMetaClass">
+    <type name="MetaClass" ref="VoodooI2CHIDDevice::MetaClass#VoodooI2CHIDDevice::MetaClass" />
+  </variable>
+  <variable id="VoodooI2CHIDDevice::metaClass" name="metaClass">
+    <type name="OSMetaClass" qualifier=" const const *" />
+  </variable>
+  <class ref="VoodooI2CHIDDevice::MetaClass#VoodooI2CHIDDevice::MetaClass" name="MetaClass" />
+  <field id="VoodooI2CHIDDevice::name" name="name">
+    <type name="char" qualifier=" const *" builtin="yes" />
+  </field>
+  <constructor id="VoodooI2CHIDDevice::VoodooI2CHIDDevice" name="VoodooI2CHIDDevice" abstract="yes" />
+  <method id="VoodooI2CHIDDevice::close" name="close" virtual="yes" abstract="yes">
+    <return>
+      <type name="void" builtin="yes" />
+    </return>
+    <argument name="forClient" id="VoodooI2CHIDDevice::close::forClient">
+      <type name="IOService" qualifier="*" />
+    </argument>
+    <argument name="options" id="VoodooI2CHIDDevice::close::options">
+      <type name="IOOptionBits" />
+    </argument>
+  </method>
+  <method id="VoodooI2CHIDDevice::free" name="free" virtual="yes" abstract="yes">
+    <brief> Frees the <ref ref="VoodooI2CHIDDevice#VoodooI2CHIDDevice::VoodooI2CHIDDevice">VoodooI2CHIDDevice::VoodooI2CHIDDevice</ref> and <ref ref="VoodooI2CHIDDevice#VoodooI2CHIDDevice::VoodooI2CHIDDevice">VoodooI2CHIDDevice::VoodooI2CHIDDevice</ref> object</brief>
+    <doc>This is the last function called during the unload routine and
+frees the memory allocated in <ref ref="VoodooI2CHIDDevice#VoodooI2CHIDDevice::init">VoodooI2CHIDDevice::init</ref>.
+</doc>
+    <return>
+      <type name="void" builtin="yes" />
+    </return>
+  </method>
+  <method id="VoodooI2CHIDDevice::getHIDDescriptor" name="getHIDDescriptor" virtual="yes" abstract="yes">
+    <brief />
+    <doc>
+Issues an I2C-HID command to get the HID descriptor from the device.
+
+@return *kIOReturnSuccess* on sucessfully getting the HID descriptor, *kIOReturnIOError* if the request failed, *kIOReturnInvalid* if the descriptor is invalid
+</doc>
+    <return>
+      <type name="IOReturn" />
+    </return>
+  </method>
+  <method id="VoodooI2CHIDDevice::getHIDDescriptorAddress" name="getHIDDescriptorAddress" abstract="yes">
+    <brief />
+    <doc>
+Gets the HID descriptor address by evaluating the device's '_DSM' method in the ACPI tables
+
+@return *kIOReturnSuccess* on sucessfully getting the HID descriptor address, *kIOReturnNotFound* if neither the '_DSM' method nor the '_XDSM' was found, *kIOReturnInvalid* if the address is invalid
+</doc>
+    <return>
+      <type name="IOReturn" />
+    </return>
+  </method>
+  <method id="VoodooI2CHIDDevice::getMetaClass" name="getMetaClass" virtual="yes" abstract="yes">
+    <return>
+      <type name="OSMetaClass" qualifier=" const *" />
+    </return>
+  </method>
+  <method id="VoodooI2CHIDDevice::getReport" name="getReport" virtual="yes" abstract="yes">
+    <return>
+      <type name="IOReturn" />
+    </return>
+    <argument name="report" id="VoodooI2CHIDDevice::getReport::report">
+      <type name="IOMemoryDescriptor" qualifier="*" />
+    </argument>
+    <argument name="reportType" id="VoodooI2CHIDDevice::getReport::reportType">
+      <type name="IOHIDReportType" />
+    </argument>
+    <argument name="options" id="VoodooI2CHIDDevice::getReport::options">
+      <type name="IOOptionBits" />
+    </argument>
+  </method>
+  <method id="VoodooI2CHIDDevice::handleStart" name="handleStart" virtual="yes" abstract="yes">
+    <brief> Run during the &amp;lt;IOHIDDevice::start&amp;gt; routine</brief>
+    <doc />
+    <return>
+      <type name="bool" builtin="yes" />
+    </return>
+    <argument name="provider" id="VoodooI2CHIDDevice::handleStart::provider">
+      <type name="IOService" qualifier="*" />
+    </argument>
+  </method>
+  <method id="VoodooI2CHIDDevice::init" name="init" virtual="yes" abstract="yes">
+    <brief> Initialises a <ref ref="VoodooI2CHIDDevice#VoodooI2CHIDDevice::VoodooI2CHIDDevice">VoodooI2CHIDDevice::VoodooI2CHIDDevice</ref> and <ref ref="VoodooI2CHIDDevice#VoodooI2CHIDDevice::VoodooI2CHIDDevice">VoodooI2CHIDDevice::VoodooI2CHIDDevice</ref> object</brief>
+    <doc />
+    <return>
+      <type name="bool" builtin="yes" />
+    </return>
+    <argument name="properties" id="VoodooI2CHIDDevice::init::properties">
+      <type name="OSDictionary" qualifier="*" />
+    </argument>
+  </method>
+  <method id="VoodooI2CHIDDevice::newManufacturerString" name="newManufacturerString" virtual="yes" abstract="yes">
+    <brief> Returns a string object that describes the manufacturer of the HID device.</brief>
+    <doc />
+    <return>
+      <type name="OSString" qualifier="*" />
+    </return>
+  </method>
+  <method id="VoodooI2CHIDDevice::newProductIDNumber" name="newProductIDNumber" virtual="yes" abstract="yes">
+    <brief> Returns a number object that describes the product ID of the HID device.</brief>
+    <doc />
+    <return>
+      <type name="OSNumber" qualifier="*" />
+    </return>
+  </method>
+  <method id="VoodooI2CHIDDevice::newReportDescriptor" name="newReportDescriptor" virtual="yes" abstract="yes">
+    <brief> Create and return a new memory descriptor that describes the report descriptor for the HID device</brief>
+    <doc />
+    <return>
+      <type name="IOReturn" />
+    </return>
+    <argument name="descriptor" id="VoodooI2CHIDDevice::newReportDescriptor::descriptor">
+      <type name="IOMemoryDescriptor" qualifier="**" />
+    </argument>
+  </method>
+  <method id="VoodooI2CHIDDevice::newTransportString" name="newTransportString" virtual="yes" abstract="yes">
+    <brief> Returns a string object that describes the transport layer used by the HID device.</brief>
+    <doc />
+    <return>
+      <type name="OSString" qualifier="*" />
+    </return>
+  </method>
+  <method id="VoodooI2CHIDDevice::newVendorIDNumber" name="newVendorIDNumber" virtual="yes" abstract="yes">
+    <brief> Returns a number object that describes the vendor ID of the HID device.</brief>
+    <doc />
+    <return>
+      <type name="OSNumber" qualifier="*" />
+    </return>
+  </method>
+  <method id="VoodooI2CHIDDevice::newVersionNumber" name="newVersionNumber" virtual="yes" abstract="yes">
+    <brief> Returns a number object that describes the version number of the HID device.</brief>
+    <doc />
+    <return>
+      <type name="OSNumber" qualifier="*" />
+    </return>
+  </method>
+  <method id="VoodooI2CHIDDevice::open" name="open" virtual="yes" abstract="yes">
+    <return>
+      <type name="bool" builtin="yes" />
+    </return>
+    <argument name="forClient" id="VoodooI2CHIDDevice::open::forClient">
+      <type name="IOService" qualifier="*" />
+    </argument>
+    <argument name="options" id="VoodooI2CHIDDevice::open::options">
+      <type name="IOOptionBits" />
+    </argument>
+    <argument name="arg" id="VoodooI2CHIDDevice::open::arg">
+      <type name="void" qualifier="*" builtin="yes" />
+    </argument>
+  </method>
+  <method id="VoodooI2CHIDDevice::parseHIDDescriptor" name="parseHIDDescriptor" abstract="yes">
+    <return>
+      <type name="IOReturn" />
+    </return>
+  </method>
+  <method id="VoodooI2CHIDDevice::probe" name="probe" virtual="yes" abstract="yes">
+    <brief> Probes the candidate I2C-HID device to see if this driver can indeed drive it</brief>
+    <doc />
+    <return>
+      <type name="VoodooI2CHIDDevice" qualifier="*" ref="VoodooI2CHIDDevice#VoodooI2CHIDDevice" />
+    </return>
+    <argument name="provider" id="VoodooI2CHIDDevice::probe::provider">
+      <type name="IOService" qualifier="*" />
+    </argument>
+    <argument name="score" id="VoodooI2CHIDDevice::probe::score">
+      <type name="SInt32" qualifier="*" />
+    </argument>
+  </method>
+  <method id="VoodooI2CHIDDevice::simulateInterrupt" name="simulateInterrupt" abstract="yes">
+    <return>
+      <type name="void" builtin="yes" />
+    </return>
+    <argument name="owner" id="VoodooI2CHIDDevice::simulateInterrupt::owner">
+      <type name="OSObject" qualifier="*" />
+    </argument>
+    <argument name="timer" id="VoodooI2CHIDDevice::simulateInterrupt::timer">
+      <type name="IOTimerEventSource" qualifier="*" />
+    </argument>
+  </method>
+  <method id="VoodooI2CHIDDevice::start" name="start" virtual="yes" abstract="yes">
+    <brief> Sets a few properties that are needed after &amp;lt;IOHIDDevice&amp;gt; finishes starting</brief>
+    <doc />
+    <return>
+      <type name="bool" builtin="yes" />
+    </return>
+    <argument name="provider" id="VoodooI2CHIDDevice::start::provider">
+      <type name="IOService" qualifier="*" />
+    </argument>
+  </method>
+  <method id="VoodooI2CHIDDevice::stop" name="stop" virtual="yes" abstract="yes">
+    <brief> Stops the I2C-HID Device</brief>
+    <doc />
+    <return>
+      <type name="void" builtin="yes" />
+    </return>
+    <argument name="provider" id="VoodooI2CHIDDevice::stop::provider">
+      <type name="IOService" qualifier="*" />
+    </argument>
+  </method>
+  <field id="VoodooI2CHIDDevice::awake" name="awake" access="protected">
+    <type name="bool" builtin="yes" />
+  </field>
+  <field id="VoodooI2CHIDDevice::work_loop" name="work_loop" access="protected">
+    <type name="IOWorkLoop" qualifier="*" />
+  </field>
+  <field id="VoodooI2CHIDDevice::client_lock" name="client_lock" access="protected">
+    <type name="IOLock" qualifier="*" />
+  </field>
+  <field id="VoodooI2CHIDDevice::clients" name="clients" access="protected">
+    <type name="OSArray" qualifier="*" />
+  </field>
+  <field id="VoodooI2CHIDDevice::hid_descriptor" name="hid_descriptor" access="protected">
+    <type name="VoodooI2CHIDDeviceHIDDescriptor" ref="VoodooI2CHIDDeviceHIDDescriptor#VoodooI2CHIDDeviceHIDDescriptor" />
+  </field>
+  <constructor id="VoodooI2CHIDDevice::VoodooI2CHIDDevice" name="VoodooI2CHIDDevice" access="protected" abstract="yes">
+    <argument name="" id="VoodooI2CHIDDevice::VoodooI2CHIDDevice::">
+      <type name="OSMetaClass" qualifier=" const *" />
+    </argument>
+  </constructor>
+  <destructor id="VoodooI2CHIDDevice::~VoodooI2CHIDDevice" name="~VoodooI2CHIDDevice" access="protected" virtual="yes" abstract="yes" />
+  <method id="VoodooI2CHIDDevice::lookupQuirks" name="lookupQuirks" access="protected" abstract="yes">
+    <brief />
+    <doc>
+Lookup and set any quirks associated with the I2C HID device.
+</doc>
+    <return>
+      <type name="void" builtin="yes" />
+    </return>
+  </method>
+  <method id="VoodooI2CHIDDevice::resetHIDDevice" name="resetHIDDevice" access="protected" abstract="yes">
+    <brief> Issues an I2C-HID reset command.</brief>
+    <doc />
+    <return>
+      <type name="IOReturn" />
+    </return>
+  </method>
+  <method id="VoodooI2CHIDDevice::resetHIDDeviceGated" name="resetHIDDeviceGated" access="protected" abstract="yes">
+    <return>
+      <type name="IOReturn" />
+    </return>
+  </method>
+  <method id="VoodooI2CHIDDevice::setHIDPowerState" name="setHIDPowerState" access="protected" abstract="yes">
+    <brief> Issues an I2C-HID power state command.</brief>
+    <doc />
+    <return>
+      <type name="IOReturn" />
+    </return>
+    <argument name="state" id="VoodooI2CHIDDevice::setHIDPowerState::state">
+      <type name="VoodooI2CState" ref="index#VoodooI2CState" />
+    </argument>
+  </method>
+  <method id="VoodooI2CHIDDevice::setPowerState" name="setPowerState" access="protected" virtual="yes" abstract="yes">
+    <brief> Called by the OS's power management stack to notify the driver that it should change the power state of the deice</brief>
+    <doc />
+    <return>
+      <type name="IOReturn" />
+    </return>
+    <argument name="whichState" id="VoodooI2CHIDDevice::setPowerState::whichState">
+      <type name="unsigned long" builtin="yes" />
+    </argument>
+    <argument name="whatDevice" id="VoodooI2CHIDDevice::setPowerState::whatDevice">
+      <type name="IOService" qualifier="*" />
+    </argument>
+  </method>
+  <method id="VoodooI2CHIDDevice::setReport" name="setReport" access="protected" virtual="yes" abstract="yes">
+    <brief> Issues an I2C-HID set report command.</brief>
+    <doc />
+    <return>
+      <type name="IOReturn" />
+    </return>
+    <argument name="report" id="VoodooI2CHIDDevice::setReport::report">
+      <type name="IOMemoryDescriptor" qualifier="*" />
+    </argument>
+    <argument name="reportType" id="VoodooI2CHIDDevice::setReport::reportType">
+      <type name="IOHIDReportType" />
+    </argument>
+    <argument name="options" id="VoodooI2CHIDDevice::setReport::options">
+      <type name="IOOptionBits" />
+    </argument>
+  </method>
+</class>

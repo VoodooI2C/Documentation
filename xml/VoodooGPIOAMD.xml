@@ -1,0 +1,117 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<class id="VoodooGPIOAMD" name="VoodooGPIOAMD" interface="true" xmlns="http://jessevdk.github.com/cldoc/1.0">
+  <base access="public">
+    <type name="VoodooGPIO" ref="VoodooGPIO#VoodooGPIO" />
+  </base>
+  <variable id="VoodooGPIOAMD::gMetaClass" name="gMetaClass">
+    <type name="MetaClass" ref="VoodooGPIOAMD::MetaClass#VoodooGPIOAMD::MetaClass" />
+  </variable>
+  <variable id="VoodooGPIOAMD::metaClass" name="metaClass">
+    <type name="OSMetaClass" qualifier=" const const *" />
+  </variable>
+  <class ref="VoodooGPIOAMD::MetaClass#VoodooGPIOAMD::MetaClass" name="MetaClass" />
+  <constructor id="VoodooGPIOAMD::VoodooGPIOAMD" name="VoodooGPIOAMD" abstract="yes" />
+  <method id="VoodooGPIOAMD::disableInterrupt" name="disableInterrupt" virtual="yes" abstract="yes">
+    <return>
+      <type name="IOReturn" />
+    </return>
+    <argument name="pin" id="VoodooGPIOAMD::disableInterrupt::pin">
+      <type name="int" builtin="yes" />
+    </argument>
+  </method>
+  <method id="VoodooGPIOAMD::enableInterrupt" name="enableInterrupt" virtual="yes" abstract="yes">
+    <return>
+      <type name="IOReturn" />
+    </return>
+    <argument name="pin" id="VoodooGPIOAMD::enableInterrupt::pin">
+      <type name="int" builtin="yes" />
+    </argument>
+  </method>
+  <method id="VoodooGPIOAMD::getInterruptType" name="getInterruptType" virtual="yes" abstract="yes">
+    <return>
+      <type name="IOReturn" />
+    </return>
+    <argument name="pin" id="VoodooGPIOAMD::getInterruptType::pin">
+      <type name="int" builtin="yes" />
+    </argument>
+    <argument name="interruptType" id="VoodooGPIOAMD::getInterruptType::interruptType">
+      <type name="int" qualifier="*" builtin="yes" />
+    </argument>
+  </method>
+  <method id="VoodooGPIOAMD::getMetaClass" name="getMetaClass" override="yes" virtual="yes" abstract="yes">
+    <return>
+      <type name="OSMetaClass" qualifier=" const *" />
+    </return>
+    <override name="VoodooGPIO::getMetaClass" ref="VoodooGPIO#VoodooGPIO::getMetaClass" />
+  </method>
+  <method id="VoodooGPIOAMD::registerInterrupt" name="registerInterrupt" virtual="yes" abstract="yes">
+    <return>
+      <type name="IOReturn" />
+    </return>
+    <argument name="pin" id="VoodooGPIOAMD::registerInterrupt::pin">
+      <type name="int" builtin="yes" />
+    </argument>
+    <argument name="target" id="VoodooGPIOAMD::registerInterrupt::target">
+      <type name="OSObject" qualifier="*" />
+    </argument>
+    <argument name="handler" id="VoodooGPIOAMD::registerInterrupt::handler">
+      <type name="IOInterruptAction" />
+    </argument>
+    <argument name="refcon" id="VoodooGPIOAMD::registerInterrupt::refcon">
+      <type name="void" qualifier="*" builtin="yes" />
+    </argument>
+  </method>
+  <method id="VoodooGPIOAMD::setInterruptTypeForPin" name="setInterruptTypeForPin" override="yes" virtual="yes" abstract="yes">
+    <return>
+      <type name="IOReturn" />
+    </return>
+    <argument name="pin" id="VoodooGPIOAMD::setInterruptTypeForPin::pin">
+      <type name="int" builtin="yes" />
+    </argument>
+    <argument name="type" id="VoodooGPIOAMD::setInterruptTypeForPin::type">
+      <type name="int" builtin="yes" />
+    </argument>
+    <override name="VoodooGPIO::setInterruptTypeForPin" ref="VoodooGPIO#VoodooGPIO::setInterruptTypeForPin" />
+  </method>
+  <method id="VoodooGPIOAMD::setPowerState" name="setPowerState" virtual="yes" abstract="yes">
+    <return>
+      <type name="IOReturn" />
+    </return>
+    <argument name="powerState" id="VoodooGPIOAMD::setPowerState::powerState">
+      <type name="unsigned long" builtin="yes" />
+    </argument>
+    <argument name="whatDevice" id="VoodooGPIOAMD::setPowerState::whatDevice">
+      <type name="IOService" qualifier="*" />
+    </argument>
+  </method>
+  <method id="VoodooGPIOAMD::start" name="start" virtual="yes" abstract="yes">
+    <return>
+      <type name="bool" builtin="yes" />
+    </return>
+    <argument name="provider" id="VoodooGPIOAMD::start::provider">
+      <type name="IOService" qualifier="*" />
+    </argument>
+  </method>
+  <method id="VoodooGPIOAMD::stop" name="stop" virtual="yes" abstract="yes">
+    <return>
+      <type name="void" builtin="yes" />
+    </return>
+    <argument name="provider" id="VoodooGPIOAMD::stop::provider">
+      <type name="IOService" qualifier="*" />
+    </argument>
+  </method>
+  <method id="VoodooGPIOAMD::unregisterInterrupt" name="unregisterInterrupt" virtual="yes" abstract="yes">
+    <return>
+      <type name="IOReturn" />
+    </return>
+    <argument name="pin" id="VoodooGPIOAMD::unregisterInterrupt::pin">
+      <type name="int" builtin="yes" />
+    </argument>
+  </method>
+  <constructor id="VoodooGPIOAMD::VoodooGPIOAMD" name="VoodooGPIOAMD" access="protected" abstract="yes">
+    <argument name="" id="VoodooGPIOAMD::VoodooGPIOAMD::">
+      <type name="OSMetaClass" qualifier=" const *" />
+    </argument>
+  </constructor>
+  <destructor id="VoodooGPIOAMD::~VoodooGPIOAMD" name="~VoodooGPIOAMD" access="protected" virtual="yes" abstract="yes" />
+</class>

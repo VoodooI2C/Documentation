@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<struct id="amd_function" name="amd_function" xmlns="http://jessevdk.github.com/cldoc/1.0">
+  <field id="amd_function::name" name="name">
+    <type name="char" qualifier=" const *" builtin="yes" />
+  </field>
+  <field id="amd_function::groups" name="groups">
+    <type size="4" class="array">
+      <type name="char" qualifier=" const const *" builtin="yes" />
+    </type>
+  </field>
+  <field id="amd_function::ngroups" name="ngroups">
+    <type name="unsigned int" builtin="yes" />
+  </field>
+  <field id="amd_function::index" name="index">
+    <type name="int" builtin="yes" />
+  </field>
+</struct>

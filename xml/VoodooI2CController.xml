@@ -1,0 +1,128 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<class id="VoodooI2CController" name="VoodooI2CController" interface="true" xmlns="http://jessevdk.github.com/cldoc/1.0">
+  <brief> Implements a Synopsys DesignWare I2C Controller</brief>
+  <doc>This is the base class from which all implementations of a physical
+Synopsys DesignWare I2C Controller should inherit from. The members of this class
+are responsible for low-level interfacing with the physical hardware. For the driver implementing
+the proprietary Synopsys DesignWare I2C controller interface, see <ref ref="VoodooI2CControllerDriver#VoodooI2CControllerDriver">VoodooI2CControllerDriver</ref>.
+</doc>
+  <base access="public">
+    <type name="IOService" />
+  </base>
+  <subclass access="public" ref="VoodooI2CPCIController#VoodooI2CPCIController" name="VoodooI2CPCIController">
+    <brief> Implements a PCI Intel LPSS Synopsys DesignWare I2C Controller</brief>
+  </subclass>
+  <subclass access="public" ref="VoodooI2CACPIController#VoodooI2CACPIController" name="VoodooI2CACPIController">
+    <brief> Implements an ACPI Synopsys DesignWare I2C Controller</brief>
+  </subclass>
+  <variable id="VoodooI2CController::gMetaClass" name="gMetaClass">
+    <type name="MetaClass" ref="VoodooI2CController::MetaClass#VoodooI2CController::MetaClass" />
+  </variable>
+  <variable id="VoodooI2CController::metaClass" name="metaClass">
+    <type name="OSMetaClass" qualifier=" const const *" />
+  </variable>
+  <class ref="VoodooI2CController::MetaClass#VoodooI2CController::MetaClass" name="MetaClass" />
+  <field id="VoodooI2CController::nub" name="nub">
+    <type name="VoodooI2CControllerNub" qualifier="*" ref="VoodooI2CControllerNub#VoodooI2CControllerNub" />
+  </field>
+  <field id="VoodooI2CController::physical_device" name="physical_device">
+    <type name="VoodooI2CControllerPhysicalDevice" ref="VoodooI2CControllerPhysicalDevice#VoodooI2CControllerPhysicalDevice" />
+  </field>
+  <constructor id="VoodooI2CController::VoodooI2CController" name="VoodooI2CController" abstract="yes" />
+  <method id="VoodooI2CController::getMetaClass" name="getMetaClass" virtual="yes" abstract="yes">
+    <return>
+      <type name="OSMetaClass" qualifier=" const *" />
+    </return>
+  </method>
+  <method id="VoodooI2CController::probe" name="probe" virtual="yes" abstract="yes">
+    <brief> Implemented to beat Apple's own LPSS kexts</brief>
+    <doc />
+    <return>
+      <type name="VoodooI2CController" qualifier="*" ref="VoodooI2CController#VoodooI2CController" />
+    </return>
+    <argument name="provider" id="VoodooI2CController::probe::provider">
+      <type name="IOService" qualifier="*" />
+    </argument>
+    <argument name="score" id="VoodooI2CController::probe::score">
+      <type name="SInt32" qualifier="*" />
+    </argument>
+  </method>
+  <method id="VoodooI2CController::readRegister" name="readRegister" abstract="yes">
+    <brief> Reads a controller register</brief>
+    <doc />
+    <return>
+      <type name="UInt32" />
+    </return>
+    <argument name="offset" id="VoodooI2CController::readRegister::offset">
+      <type name="int" builtin="yes" />
+    </argument>
+  </method>
+  <method id="VoodooI2CController::start" name="start" virtual="yes" abstract="yes">
+    <brief> Starts the physical controller</brief>
+    <doc />
+    <return>
+      <type name="bool" builtin="yes" />
+    </return>
+    <argument name="provider" id="VoodooI2CController::start::provider">
+      <type name="IOService" qualifier="*" />
+    </argument>
+  </method>
+  <method id="VoodooI2CController::stop" name="stop" virtual="yes" abstract="yes">
+    <brief> Stops the physical controller</brief>
+    <doc />
+    <return>
+      <type name="void" builtin="yes" />
+    </return>
+    <argument name="provider" id="VoodooI2CController::stop::provider">
+      <type name="IOService" qualifier="*" />
+    </argument>
+  </method>
+  <method id="VoodooI2CController::writeRegister" name="writeRegister" abstract="yes">
+    <brief> Writes a specified value into a controller register</brief>
+    <doc />
+    <return>
+      <type name="void" builtin="yes" />
+    </return>
+    <argument name="value" id="VoodooI2CController::writeRegister::value">
+      <type name="UInt32" />
+    </argument>
+    <argument name="offset" id="VoodooI2CController::writeRegister::offset">
+      <type name="int" builtin="yes" />
+    </argument>
+  </method>
+  <constructor id="VoodooI2CController::VoodooI2CController" name="VoodooI2CController" access="protected" abstract="yes">
+    <argument name="" id="VoodooI2CController::VoodooI2CController::">
+      <type name="OSMetaClass" qualifier=" const *" />
+    </argument>
+  </constructor>
+  <destructor id="VoodooI2CController::~VoodooI2CController" name="~VoodooI2CController" access="protected" virtual="yes" abstract="yes" />
+  <method id="VoodooI2CController::mapMemory" name="mapMemory" access="protected" abstract="yes">
+    <brief> Maps the controller's memory to a virtual address</brief>
+    <doc />
+    <return>
+      <type name="IOReturn" />
+    </return>
+  </method>
+  <method id="VoodooI2CController::publishNub" name="publishNub" access="protected" abstract="yes">
+    <brief> Publishes a <ref ref="VoodooI2CControllerNub#VoodooI2CControllerNub">VoodooI2CControllerNub</ref> entry into the IORegistry for matching</brief>
+    <doc>This function instantiates a new <ref ref="VoodooI2CControllerNub#VoodooI2CControllerNub">VoodooI2CControllerNub</ref> object and attaches it
+to the current VoodooI2CController object. It then starts the nub and calls
+VoodooI2CControllerNub::registerService to publish the nub and begin the matching
+process.
+
+</doc>
+    <return>
+      <type name="IOReturn" />
+    </return>
+  </method>
+  <method id="VoodooI2CController::unmapMemory" name="unmapMemory" access="protected" abstract="yes">
+    <brief> Releases the controller's mapped memory</brief>
+    <doc>*
+* @return *KIOReturnSuccess* on successful releasing, *kIOReturnDeviceError*
+*  otherwise
+</doc>
+    <return>
+      <type name="IOReturn" />
+    </return>
+  </method>
+</class>
